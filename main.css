@@ -115,24 +115,24 @@ body {
 
 #sider-cats > div {
     display: none;
-    border-left: 2px solid red;
+    border-left: 2px solid white;
     padding-left: 10px;
 }
 
 #sider-cats > input:checked + label {
-    border-right: 2px solid red;
-    border-bottom: 2px solid red;
+    /*border-right: 2px solid red;
+    border-bottom: 2px solid red;*/
 }
 
 #sider-cats > label {
-    color: green;
+    color: #333333;
     padding-right: 10px;
     padding-bottom: 10px;
     display: inline-block;
 }
 
 #sider-cats > label:hover {
-    color: darkgreen;
+    color: black;
     cursor: pointer;
 }
 

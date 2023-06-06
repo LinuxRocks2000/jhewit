@@ -30,6 +30,7 @@ const scrollchecks = () => {
     });
 };
 window.addEventListener("scroll", scrollchecks);
+window.addEventListener("scrollend", scrollchecks);
 window.addEventListener("wheel", scrollchecks);
 window.addEventListener("resize", scrollchecks);
 window.addEventListener("load", scrollchecks);
