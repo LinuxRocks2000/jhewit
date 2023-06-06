@@ -1,3 +1,7 @@
+:root {
+    --sidebar-size: clamp(300px, 20%, 400px);
+}
+
 @font-face {
     font-family: "Cantarell var";
     font-weight: 100 900;
@@ -64,10 +68,9 @@ h1 {
 }
 
 #headin {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     transition: background-color 0.3s, color 0.3s;
-    width: 100%;
 }
 
 #head-marker.scrolly-out + #headin {
@@ -76,8 +79,78 @@ h1 {
     left: 0px;
     background-color: darkred;
     color: lightgreen;
+    margin-left: var(--sidebar-size);
+    width: calc(100vw - var(--sidebar-size));
 }
 
 #head-marker.scrolly-out + #headin > #links > * > *, #head-marker.scrolly-out + #headin > #links > * {
     background-color: black;
+}
+
+body {
+    display: grid;
+    grid-template-columns: var(--sidebar-size) auto;
+}
+
+#outer {
+    position: relative;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#sider {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: pink;
+}
+
+.hidden {
+    display: none;
+}
+
+#sider-cats {
+    border-left: 2px solid white;
+    padding-left: 10px;
+}
+
+#sider-cats > div {
+    display: none;
+    border-left: 2px solid red;
+    padding-left: 10px;
+}
+
+#sider-cats > input:checked + label {
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+#sider-cats > label {
+    color: green;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+#sider-cats > label:hover {
+    color: darkgreen;
+    cursor: pointer;
+}
+
+#sider-cats > input:checked + label + div {
+    display: block;
+}
+
+#sider > h2 {
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    color: darkgreen;
 }
