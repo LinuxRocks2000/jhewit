@@ -35,9 +35,27 @@ h1 {
     text-align: center;
     padding-top: 10%;
     padding-bottom: 10%;
-    min-height: 40vh;
+    min-height: 100vh;
+    box-sizing: border-box;
     background-image: url(https://www.state.gov/wp-content/uploads/2022/02/Kuwait-2323x1406.png);
     background-attachment: fixed;
+    /*clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 30% 100%, 0% 90%);*/
+}
+
+#header::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    clip-path: polygon(0% 90%, 0 100%, 100% 100%, 100% 90%, 30% 100%);
+    background-color: white;
+    box-sizing: border-box;
 }
 
 .dropdown {
@@ -70,17 +88,24 @@ h1 {
 #headin {
     padding-top: 2%;
     padding-bottom: 2%;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;/*
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+h1 {
+    font-size: 4em;
 }
 
 #head-marker.scrolly-out + #headin {
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: darkred;
+    background-color: slateblue;
     color: lightgreen;
-    margin-left: var(--sidebar-size);
-    width: calc(100vw - var(--sidebar-size));
+    /*margin-left: var(--sidebar-size);*/
+    width: calc(100vw); /*- var(--sidebar-size)*/
 }
 
 #head-marker.scrolly-out + #headin > #links > * > *, #head-marker.scrolly-out + #headin > #links > * {
@@ -88,8 +113,8 @@ h1 {
 }
 
 body {
-    display: grid;
-    grid-template-columns: var(--sidebar-size) auto;
+    /*display: grid;
+    grid-template-columns: var(--sidebar-size) auto;*/
 }
 
 #outer {
