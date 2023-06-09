@@ -47,4 +47,5 @@ window.addEventListener("scrollend", scrollchecks);
 window.addEventListener("wheel", scrollchecks);
 window.addEventListener("resize", scrollchecks);
 window.addEventListener("load", scrollchecks);
+window.addEventListener("touchmove", scrollchecks);
 setInterval(scrollchecks, 250); // Computers are fast and scrolling in JavaScript is dumb. Shoot me.
