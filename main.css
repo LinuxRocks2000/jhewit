@@ -39,6 +39,7 @@ h1 {
     box-sizing: border-box;
     background-image: url(https://www.state.gov/wp-content/uploads/2022/02/Kuwait-2323x1406.png);
     background-attachment: fixed;
+    background-size: cover;
     /*clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 30% 100%, 0% 90%);*/
 }
 
