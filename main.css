@@ -97,6 +97,10 @@ h1 {
     font-size: 4em;
 }
 
+#head-marker {
+    margin-top: 20vh;
+}
+
 #head-marker.scrolly-out + #headin {
     position: fixed;
     transition: background-color 0.3s, color 0.3s;
