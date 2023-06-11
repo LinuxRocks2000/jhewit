@@ -50,41 +50,55 @@ window.addEventListener("resize", scrollchecks);
 window.addEventListener("load", scrollchecks);
 window.addEventListener("touchmove", scrollchecks);
 setInterval(scrollchecks, 250); // Computers are fast and scrolling in JavaScript is dumb. Shoot me.
+var gallery_position = 0;
+var last_cycle = window.performance.now();
+var GALLERYSPEED = -100;
+var oldTouch = undefined;
+
+document.getElementById("carousel-inner").addEventListener("wheel", (evt) => {
+    GALLERYSPEED = (-evt.deltaX + evt.deltaY) * 100;
+    evt.preventDefault();
+});
+
+document.getElementById("carousel-inner").addEventListener("touchmove", (evt) => {
+    var tuch = evt.touches[0];
+    if (oldTouch) {
+        GALLERYSPEED = -(oldTouch.pageX - tuch.pageX) * 100;
+    }
+    oldTouch = tuch;
+});
+
+document.getElementById("carousel-inner").addEventListener("touchend", () => {
+    oldTouch = undefined;
+});
 
 function main() {
+    var elapsed_time = window.performance.now() - last_cycle;
+    last_cycle += elapsed_time;
     requestAnimationFrame(main);
     var el = document.getElementById("carousel-inner");
-    if (getComputedStyle(el).getPropertyValue("--do-scroll") == "yes") {
-        el.scrollBy({
-            left: 10,
-            top: 0,
-            behavior: "smooth"
-        });
+    if (getComputedStyle(el).getPropertyValue("--do-scroll") == "yes" && !oldTouch) {
+        GALLERYSPEED = -100;
     }
-    if (el.scrollLeft > el.scrollWidth - window.innerWidth - (el.children[0].getBoundingClientRect().width * 3)) {
-        var hammer = el.children[0];
-        el.removeChild(hammer);
-        let smol = el.scrollWidth;
-        el.appendChild(hammer);
-        hammer = el.lastChild;
-        el.scrollBy({
-            left: smol - el.scrollWidth,
-            top: 0,
-            behavior: "auto"
-        });
+    else {
+        GALLERYSPEED *= Math.pow(0.1, elapsed_time / 1000)
     }
-    if (el.scrollLeft < el.children[0].getBoundingClientRect().width * 3) {
+    gallery_position += GALLERYSPEED * elapsed_time / 1000;
+    if (gallery_position > 0) {
         var hammer = el.lastChild;
         el.removeChild(hammer);
-        let smol = el.scrollWidth;
+        var smol = el.scrollWidth;
         el.insertBefore(hammer, el.firstChild);
-        hammer = el.firstChild;
-        el.scrollBy({
-            left: el.scrollWidth - smol,
-            top: 0,
-            behavior: "auto"
-        });
+        gallery_position -= (el.scrollWidth - smol);
     }
+    if (gallery_position < -(el.scrollWidth - window.innerWidth)) {
+        var hammer = el.firstChild;
+        el.removeChild(hammer);
+        var smol = el.scrollWidth;
+        el.appendChild(hammer);
+        gallery_position += (el.scrollWidth - smol);
+    }
+    el.style.transform = "translate(" + gallery_position + "px, 0)";
 }
 
 main();
