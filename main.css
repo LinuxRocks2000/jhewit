@@ -66,7 +66,7 @@ body {
     grid-template-columns: var(--sidebar-size) auto;*/
 }
 
-.dropdown {
+.dropdown, .link {
     background-color: aliceblue;
     padding: 10px;
     display: inline-block;
@@ -98,7 +98,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    padding-top: 2%;
+    z-index: 10000000;
 }
 
 h1 {
@@ -114,7 +115,7 @@ h1 {
     transition: background-color 0.3s, color 0.3s;
     top: 0px;
     left: 0px;
-    color: red;
+    /*color: red;*/
     /*margin-left: var(--sidebar-size);
     width: calc(100vw - var(--sidebar-size));*/
     width: 100vw;
@@ -188,9 +189,10 @@ a:hover {
     }
 }
 
-#carousel-inner > div {
-    width: max(15vw, 15vh);
-    height: max(15vw, 15vh);
+.carousel > div {
+    min-width: max(15vw, 15vh);
+    min-height: max(15vw, 15vh);
+    transition: min-height 1s, min-width 1s;
     background-size: cover;
     background-position: center;
     padding: max(2vw, 2vh);
@@ -199,39 +201,69 @@ a:hover {
     display: inline-block;
     margin-left: 2%;
     margin-right: 2%;
+    opacity: 50%;
 }
 
-#carousel-outer {
-    --do-scroll: yes;
-    padding: 20px;
-    width: 100%;
-    box-sizing: border-box;
-    background-color: rgba(255, 125, 125, 0.8);
-    overflow-x: hidden;
+.carousel > div:first-child {
+    margin-left: 50vw;
 }
 
-#carousel-outer:hover {
-    --do-scroll: no;
+.carousel > div:last-child {
+    margin-right: 50vw;
 }
 
- /* Hide scrollbar for Chrome, Safari and Opera */
-#carousel-inner::-webkit-scrollbar {
+.carousel > div.selected {
+    min-width: max(20vw, 20vh);
+    min-height: max(20vw, 20vh);
+    opacity: 100%;
+}
+
+.carousel::-webkit-scrollbar {
     display: none;
 }
 
- /* Hide scrollbar for IE, Edge and Firefox */
-#carousel-inner {
-    -ms-overflow-style: none;
-     /* IE and Edge */
-    scrollbar-width: none;
-     /* Firefox */
-}
-
-#carousel-inner {
-    white-space: nowrap;
+.carousel {
+    /*-ms-overflow-style: none;
+    scrollbar-width: none;*/
+    display: flex;
+    align-items: center;
+    width: max-content;
+    padding: 1%;
+    overflow: hidden;
+    box-sizing: border-box;
+    min-height: max(22vw, 22vh);
 }
 
 h1 {
     margin: 0 !important;
     padding: 0 !important;
+}
+
+.carousel-outer {
+    margin-top: clamp(50px, 10vh, 100px);
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    position: relative;
+}
+
+.carousel-outer > img {
+    z-index: 1000;
+    position: absolute;
+    transition: height 1s;
+    height: 50%;
+    cursor: pointer;
+}
+
+.carousel-outer > img:hover {
+    height: 75%;
+}
+
+.carousel-outer > img:first-child {
+    left: 2vw;
+}
+
+.carousel-outer > img:last-child {
+    right: 2vw;
 }

@@ -50,64 +50,55 @@ window.addEventListener("resize", scrollchecks);
 window.addEventListener("load", scrollchecks);
 window.addEventListener("touchmove", scrollchecks);
 setInterval(scrollchecks, 250); // Computers are fast and scrolling in JavaScript is dumb. Shoot me.
+var gallery_position = 0;
+var last_cycle = window.performance.now();
+var GALLERYSPEED = -100;
+var oldTouch = undefined;
 
-function getCarousel(id) {
-    var carousEL = document.querySelector(".carousel#" + id);
-    var carousel = {
-        element: carousEL,
-        delCalls: 0,
-        selected() {
-            return carousel.element.querySelector(".selected");
-        },
-        next(domarkate) {
-            var sel = carousel.selected();
-            sel.classList.remove("selected");
-            var newSel = sel.nextElementSibling;
-            if (!newSel) {
-                newSel = carousel.element.firstElementChild;
-            }
-            newSel.classList.add("selected");
-            carousel.display();
-            if (domarkate != true) {
-                carousel.delCalls = 3;
-            }
-        },
-        nextAnim() {
-            if (carousel.delCalls == 0) {
-                carousel.next(true);
-            }
-            else {
-                carousel.delCalls--;
-            }
-        },
-        back(domarkate) {
-            var sel = carousel.selected();
-            sel.classList.remove("selected");
-            var newSel = sel.previousElementSibling;
-            if (!newSel) {
-                newSel = carousel.element.lastElementChild;
-            }
-            newSel.classList.add("selected");
-            carousel.display();
-            if (domarkate != true) {
-                carousel.delCalls = 3;
-            }
-        },
-        display() {
-            var bbox = carousel.selected().getBoundingClientRect();
-            carousel.element.scrollBy({
-                left: (bbox.left - window.innerWidth/2 + bbox.width/2),
-                top: 0,
-                behavior: "smooth"
-            });
-        }
+document.getElementById("carousel-inner").addEventListener("wheel", (evt) => {
+    GALLERYSPEED = (-evt.deltaX + evt.deltaY) * 100;
+    evt.preventDefault();
+});
+
+document.getElementById("carousel-inner").addEventListener("touchmove", (evt) => {
+    var tuch = evt.touches[0];
+    if (oldTouch) {
+        GALLERYSPEED = -(oldTouch.pageX - tuch.pageX) * 100;
     }
-    carousEL.previousElementSibling.onclick = carousel.back;
-    carousEL.nextElementSibling.onclick = carousel.next;
-    return carousel;
+    oldTouch = tuch;
+});
+
+document.getElementById("carousel-inner").addEventListener("touchend", () => {
+    oldTouch = undefined;
+});
+
+function main() {
+    var elapsed_time = window.performance.now() - last_cycle;
+    last_cycle += elapsed_time;
+    requestAnimationFrame(main);
+    var el = document.getElementById("carousel-inner");
+    if (getComputedStyle(el).getPropertyValue("--do-scroll") == "yes" && !oldTouch) {
+        GALLERYSPEED = -100;
+    }
+    else {
+        GALLERYSPEED *= Math.pow(0.1, elapsed_time / 1000)
+    }
+    gallery_position += GALLERYSPEED * elapsed_time / 1000;
+    if (gallery_position > 0) {
+        var hammer = el.lastChild;
+        el.removeChild(hammer);
+        var smol = el.scrollWidth;
+        el.insertBefore(hammer, el.firstChild);
+        gallery_position -= (el.scrollWidth - smol);
+    }
+    if (gallery_position < -(el.scrollWidth - window.innerWidth)) {
+        var hammer = el.firstChild;
+        el.removeChild(hammer);
+        var smol = el.scrollWidth;
+        el.appendChild(hammer);
+        gallery_position += (el.scrollWidth - smol);
+    }
+    el.style.transform = "translate(" + gallery_position + "px, 0)";
 }
 
-var carousel_1 = getCarousel("carousel_1");
-carousel_1.display();
-
-setInterval(carousel_1.nextAnim, 2000);
+main();
