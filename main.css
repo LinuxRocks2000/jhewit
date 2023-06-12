@@ -61,9 +61,9 @@ h1 {
 }
 
 body {
-    /*display: grid;
+    display: grid;
     grid-template-columns: var(--sidebar-size) auto;
-    grid-template-columns: var(--sidebar-size) auto;*/
+    transition: grid-template-columns 1s;
 }
 
 .dropdown, .link {
@@ -116,9 +116,9 @@ h1 {
     top: 0px;
     left: 0px;
     /*color: red;*/
-    /*margin-left: var(--sidebar-size);
-    width: calc(100vw - var(--sidebar-size));*/
-    width: 100vw;
+    margin-left: var(--sidebar-size);
+    width: calc(100vw - var(--sidebar-size));
+    /*width: 100vw;*/
 }
 
 #head-marker.scrolly-out + #headin > #links > * > *, #head-marker.scrolly-out + #headin > #links > * {
@@ -131,10 +131,46 @@ h1 {
     overflow-y: scroll;
 }
 
-#sider {
+#sider-outer {
     box-sizing: border-box;
-    padding: 20px;
     background-color: pink;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    overflow: visible !important;
+    z-index: 1000000;
+}
+
+#sider {
+    padding: 20px;
+}
+
+body:not(.sidebar-opened) {
+    --sidebar-size: 0px;
+}
+
+body:not(.sidebar-opened) > #sider-outer > #sider {
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body:not(.sidebar-opened) > #sider-outer > #sider > img {
+    /*right: none;*/
+    left: 0px;
+    padding-left: 10px;
+    background-color: red;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#sider > img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
 }
 
 .hidden {
@@ -241,7 +277,6 @@ h1 {
 
 .carousel-outer {
     margin-top: clamp(50px, 10vh, 100px);
-    width: 100vw;
     display: flex;
     background-color: black;
     align-items: center;

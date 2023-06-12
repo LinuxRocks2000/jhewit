@@ -95,8 +95,9 @@ function getCarousel(id) {
         },
         display() {
             var bbox = carousel.selected().getBoundingClientRect();
+            var bb2 = carousel.element.parentNode.getBoundingClientRect();
             carousel.element.scrollBy({
-                left: (bbox.left - window.innerWidth/2 + bbox.width/2),
+                left: (bbox.left - bb2.left - bb2.width/2 + bbox.width/2),
                 top: 0,
                 behavior: "smooth"
             });
@@ -111,3 +112,14 @@ var carousel_1 = getCarousel("carousel_1");
 carousel_1.display();
 
 setInterval(carousel_1.nextAnim, 2000);
+
+function toggle_sidebar() {
+    document.body.classList.toggle("sidebar-opened");
+    var el = document.querySelector("#sider > img");
+    if (document.body.classList.contains("sidebar-opened")) {
+        el.src = "res/arrow-left.svg";
+    }
+    else {
+        el.src = "res/arrow-right.svg";
+    }
+}
