@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 
 
+<!--
+    Kuwait flag colors:
+    Green: #007b3a
+    Red: #cf0821
+    Black: black
+    White: white
+-->
+
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Jhewit | Home</title>
         <link rel="stylesheet" href="main.css" />
     </head>
-    <body class="sidebar-opened">
+    <body>
         <div id="sider-outer">
             <div id="sider">
                 <h2>Sidebar</h2>
@@ -25,7 +34,7 @@
                         <a href="#">Links.</a>
                     </div>
                 </div>
-                <img src="res/arrow-left.svg" onclick="toggle_sidebar()" />
+                <img src="res/arrow-none.svg" onclick="toggle_sidebar()" />
             </div>
         </div>
         <div id="outer">
@@ -33,32 +42,52 @@
                 <div id="head-marker" class="scrolly"></div>
                 <div id="headin">
                     <h1>Jhewit</h1>
-                    <div id="links">
-                        <div class="link">
-                            <a href="#">LINK 1</a>
-                        </div>
-                        <div></div>
-                        <div class="dropdown">
-                            HI
-                        </div>
-                        <div>
-                            <div class="dropdown-inner">
-                                <a>TEST</a>
+                    <div id="links-outer">
+                        <input id="hambugha" type="checkbox" style="display: none;">
+                        <label for="hambugha">Ham</label>
+                        <div id="links">
+                            <div class="link">
+                                <a href="#">LINK 1</a>
                             </div>
-                        </div>
-                        <!--<div>
-                            <div class="dropdown-inner">
-                                <a href="#">
-                                    LINK
-                                </a>
-                                <a href="#">
-                                    LINK
-                                </a>
-                                <a href="#">
-                                    LINK
-                                </a>
+                            <div></div>
+                            <div class="dropdown">
+                                HI
                             </div>
-                        </div>-->
+                            <div>
+                                <div class="dropdown-inner">
+                                    <a>TEST</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                HI
+                            </div>
+                            <div>
+                                <div class="dropdown-inner">
+                                    <a>TEST</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                HI
+                            </div>
+                            <div>
+                                <div class="dropdown-inner">
+                                    <a>TEST</a>
+                                </div>
+                            </div>
+                            <!--<div>
+                                <div class="dropdown-inner">
+                                    <a href="#">
+                                        LINK
+                                    </a>
+                                    <a href="#">
+                                        LINK
+                                    </a>
+                                    <a href="#">
+                                        LINK
+                                    </a>
+                                </div>
+                            </div>-->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -83,6 +112,20 @@
             </div>
             <div id="content">
                 {content}
+            </div>
+            <div id="footer">
+                <p>
+                    This is a footer for content to go into.
+                </p>
+                <p>
+                    This is another part of the footer for more content.
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt omnis dolor minus rerum eaque dicta tempora debitis. Aut, ut illo delectus qui debitis, laborum sit in repellat quo sint fugit.
+                </p>
+            </div>
+            <div id="truebottom">
+                Website by <a href="https://swaous.asuscomm.com">Tyler Clarke</a>.
             </div>
         </div>
         <script src="main.js"></script>

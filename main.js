@@ -8,6 +8,21 @@ function clamp(min, val, max) {
     return val;
 }
 
+function getNearestChildIndexTo(element, position) { 
+    var nearest = undefined;
+    var nearestValue = Infinity;
+    for (var i = 0; i < element.children.length; i++){ // There isn't a short-circuit here because we have to consider for transforms. I don't think I'll be doing anything that hack but you never know.
+        var box = element.children[i].getBoundingClientRect();
+        var elPos = box.top + box.height / 2;
+        var distance = Math.abs(position - elPos);
+        if (distance < nearestValue) {
+            nearestValue = distance;
+            nearest = i;
+        }
+    }
+    return nearest; // If the element has any children, this is guaranteed to be well-defined.
+}
+
 const scrollchecks = () => {
     var el = document.getElementById("header");
     el.style.backgroundPositionY = 50 + (document.documentElement.scrollTop/el.scrollHeight) / 2 * 100 + "%";
@@ -41,8 +56,35 @@ const scrollchecks = () => {
     var perc = clamp(0, document.getElementById("outer").scrollTop / (window.innerHeight / 2), 1);
     document.querySelector("#headin > h1").style.fontSize = 2 + 4 * (1 - perc) + "em";
     document.querySelector("#links").style.opacity = perc;
+    document.querySelector("#hambugha + label").style.opacity = perc;
     //document.querySelector("#carousel").style.opacity = perc;
+    document.querySelector("#sider > img").style.top = clamp(15, 100 * (document.querySelector("#headin > h1").getBoundingClientRect().top / window.innerHeight), 100) + "%";
+    Array.from(document.getElementsByClassName("image-relational-scrolling")).forEach(element => {
+        let sel = getNearestChildIndexTo(element.children[1], window.innerHeight / 2);
+        for (var i = 0; i < element.children[0].children.length; i++){
+            if (i == sel) {
+                element.children[0].children[i].classList.add("selected");
+            }
+            else {
+                element.children[0].children[i].classList.remove("selected");
+            }
+        }
+    });
 };
+
+
+window.addEventListener("load", () => {
+    Array.from(document.getElementsByClassName("image-relational-scrolling")).forEach(imagerelational => {
+        var row1 = imagerelational.children[0];
+        var row2 = imagerelational.children[1];
+        for (var i = 0; i < row1.children.length; i ++) {
+            var el = row1.children[i].cloneNode();
+            //el.classList.add("nearest-ignore");
+            row2.children[i].prepend(el);
+        }
+    });
+});
+
 window.addEventListener("scroll", scrollchecks);
 window.addEventListener("scrollend", scrollchecks);
 window.addEventListener("wheel", scrollchecks);
@@ -120,6 +162,6 @@ function toggle_sidebar() {
         el.src = "res/arrow-left.svg";
     }
     else {
-        el.src = "res/arrow-right.svg";
+        el.src = "res/arrow-none.svg";
     }
 }

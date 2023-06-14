@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 
 
+<!--
+    Kuwait flag colors:
+    Green: #007b3a
+    Red: #cf0821
+    Black: black
+    White: white
+-->
+
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Jhewit | Home</title>
         <link rel="stylesheet" href="main.css" />
     </head>
-    <body class="sidebar-opened">
+    <body>
         <div id="sider-outer">
             <div id="sider">
                 <h2>Sidebar</h2>
@@ -25,7 +34,7 @@
                         <a href="#">Links.</a>
                     </div>
                 </div>
-                <img src="res/arrow-left.svg" onclick="toggle_sidebar()" />
+                <img src="res/arrow-none.svg" onclick="toggle_sidebar()" />
             </div>
         </div>
         <div id="outer">
@@ -33,32 +42,52 @@
                 <div id="head-marker" class="scrolly"></div>
                 <div id="headin">
                     <h1>Jhewit</h1>
-                    <div id="links">
-                        <div class="link">
-                            <a href="#">LINK 1</a>
-                        </div>
-                        <div></div>
-                        <div class="dropdown">
-                            HI
-                        </div>
-                        <div>
-                            <div class="dropdown-inner">
-                                <a>TEST</a>
+                    <div id="links-outer">
+                        <input id="hambugha" type="checkbox" style="display: none;">
+                        <label for="hambugha">Ham</label>
+                        <div id="links">
+                            <div class="link">
+                                <a href="#">LINK 1</a>
                             </div>
-                        </div>
-                        <!--<div>
-                            <div class="dropdown-inner">
-                                <a href="#">
-                                    LINK
-                                </a>
-                                <a href="#">
-                                    LINK
-                                </a>
-                                <a href="#">
-                                    LINK
-                                </a>
+                            <div></div>
+                            <div class="dropdown">
+                                HI
                             </div>
-                        </div>-->
+                            <div>
+                                <div class="dropdown-inner">
+                                    <a>TEST</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                HI
+                            </div>
+                            <div>
+                                <div class="dropdown-inner">
+                                    <a>TEST</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                HI
+                            </div>
+                            <div>
+                                <div class="dropdown-inner">
+                                    <a>TEST</a>
+                                </div>
+                            </div>
+                            <!--<div>
+                                <div class="dropdown-inner">
+                                    <a href="#">
+                                        LINK
+                                    </a>
+                                    <a href="#">
+                                        LINK
+                                    </a>
+                                    <a href="#">
+                                        LINK
+                                    </a>
+                                </div>
+                            </div>-->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,36 +111,46 @@
                 <img src="res/arrow-right.svg" />
             </div>
             <div id="content">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laborum, debitis rem veritatis ratione non minima nulla
-necessitatibus doloremque omnis blanditiis, sed repellat alias ipsum sit, amet neque reprehenderit! Ipsam!
+                <div class="image-relational-scrolling">
+    <div>
+        <img src="https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg" class="selected" />
+        <img src="https://www.badeloftusa.com/wp-content/uploads/2019/09/BW-02-XL-WHT-2020.jpg" />
+        <img src="https://www.applesfromny.com/wp-content/uploads/2020/05/20Ounce_NYAS-Apples2.png" />
+        <img src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/pi_gqp5ha.jpg" />
+        <img src="https://www.thespruceeats.com/thmb/wiFS2z1vLTt3fHKDVaka5KiWshI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/basic-cherry-pie-recipe-995136-14-dfe79487adf64a848a49dd07983b6614.jpg" />
+    </div>
+    <div>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus optio ratione sit. Quibusdam veritatis nemo distinctio dolorem doloribus quos ullam, quisquam consectetur numquam ab fuga sint, nostrum corporis dolor iusto! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam consequatur suscipit vitae similique nulla animi inventore nisi perferendis eos, itaque nobis odit ut facilis tempore rerum delectus unde ducimus fuga.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, quam quisquam. Iste veniam ut velit. Voluptatem laborum repellat, aliquid nisi earum nesciunt eius voluptatum at quis sint perferendis eos dolore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat temporibus omnis excepturi tempore! Illo maxime vel dolor nulla, velit iure. Dolore asperiores accusantium sunt obcaecati nam doloremque suscipit laborum animi!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit labore ut nihil, tempore quis mollitia voluptates magni? Tenetur, corporis voluptates quia earum blanditiis molestias dignissimos provident inventore aspernatur error assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, et rem. Quo corporis dolorum magnam recusandae facilis voluptatum nostrum a, in perferendis sunt numquam maiores corrupti sed excepturi repudiandae. Tempora!
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum accusamus aliquam commodi voluptates laborum, quia sint facilis dolores aliquid eaque repellat dolor dolorem? Temporibus et rem dolorum neque excepturi optio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, adipisci rem natus magni eum ducimus alias tempore reprehenderit nulla architecto eveniet a nemo non quis ipsum quo officiis, vel sit!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum quia laudantium ipsam eius, qui sint. Repellat consectetur asperiores ex ea, earum deserunt in distinctio corrupti, soluta voluptates, tenetur dolore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores animi necessitatibus, quia expedita architecto molestiae autem perferendis nulla minima quisquam consequatur laborum saepe repellat corporis, temporibus quibusdam omnis id nesciunt.
+        </p>
+    </div>
+</div>
+            </div>
+            <div id="footer">
+                <p>
+                    This is a footer for content to go into.
+                </p>
+                <p>
+                    This is another part of the footer for more content.
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt omnis dolor minus rerum eaque dicta tempora debitis. Aut, ut illo delectus qui debitis, laborum sit in repellat quo sint fugit.
+                </p>
+            </div>
+            <div id="truebottom">
+                Website by <a href="https://swaous.asuscomm.com">Tyler Clarke</a>.
             </div>
         </div>
         <script src="main.js"></script>
