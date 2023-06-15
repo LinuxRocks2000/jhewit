@@ -61,7 +61,7 @@ const scrollchecks = () => {
     document.querySelector("#links").style.opacity = perc;
     document.querySelector("#hambugha + label").style.opacity = perc;
     //document.querySelector("#carousel").style.opacity = perc;
-    document.querySelector("#sider > img").style.top = clamp(15, 100 * (document.querySelector("#headin > h1").getBoundingClientRect().top / window.innerHeight), 100) + "%";
+    //document.querySelector("#sider > img").style.top = clamp(15, 100 * (document.querySelector("#headin > h1").getBoundingClientRect().top / window.innerHeight), 100) + "%";
     Array.from(document.getElementsByClassName("image-relational-scrolling")).forEach(element => {
         let sel = getNearestChildIndexTo(element.children[1], window.innerHeight / 2);
         for (var i = 0; i < element.children[0].children.length; i++){

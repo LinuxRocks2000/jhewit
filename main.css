@@ -62,7 +62,7 @@ h1 {
 
 body {
     display: grid;
-    grid-template-columns: var(--sidebar-size) auto;
+    grid-template-columns: auto;
     transition: grid-template-columns 1s;
 }
 
@@ -121,8 +121,8 @@ h1 {
     top: 0px;
     left: 0px;
     /*color: red;*/
-    margin-left: var(--sidebar-size);
-    width: calc(100vw - var(--sidebar-size));
+    /*margin-left: var(--sidebar-size);*/
+    width: calc(100vw); /*- var(--sidebar-size)*/
     transition: margin-left 1s, width 1s;
     /*width: 100vw;*/
     background-color: white;
@@ -143,9 +143,13 @@ h1 {
     background-color: pink;
     margin: 0px;
     padding: 0px;
-    position: relative;
+    position: absolute;
     overflow: visible !important;
     z-index: 1000000;
+    width: var(--sidebar-size);
+    top: 0%;
+    transform: translateY(-50%);
+    min-height: 40vh;
 }
 
 #sider {
@@ -153,7 +157,7 @@ h1 {
 }
 
 body:not(.sidebar-opened) {
-    --sidebar-size: 0px;
+    --sidebar-size: 0px !important;
 }
 
 body:not(.sidebar-opened) > #sider-outer > #sider {
