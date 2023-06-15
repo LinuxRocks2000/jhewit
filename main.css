@@ -35,7 +35,7 @@ h1 {
     text-align: center;
     padding-top: 6%;
     padding-bottom: 10%;
-    min-height: 80vh;
+    min-height: 90vh;
     box-sizing: border-box;
     background-image: url(https://www.state.gov/wp-content/uploads/2022/02/Kuwait-2323x1406.png);
     background-attachment: fixed;
@@ -89,7 +89,7 @@ body {
     padding: 10px;
 }
 
-#content {
+#content > * {
     margin: 10%;
 }
 
@@ -123,6 +123,7 @@ h1 {
     /*color: red;*/
     margin-left: var(--sidebar-size);
     width: calc(100vw - var(--sidebar-size));
+    transition: margin-left 1s, width 1s;
     /*width: 100vw;*/
     background-color: white;
 }
@@ -349,6 +350,8 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-evenly;
     background-color: black;
+    border-bottom: 0.3px solid grey;
+    margin-top: 10%;
 }
 
 #footer > p {
@@ -369,7 +372,7 @@ h1 {
     max-width: 100%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     #footer {
         grid-template-columns: 1fr;
     }
@@ -411,6 +414,7 @@ h1 {
     #links-outer {
         display: flex;
         flex-direction: column;
+        font-size: 3em;
     }
 
     #links > div:nth-child(2n) {
@@ -425,4 +429,81 @@ h1 {
     #hambugha:checked + label + #links {
         visibility: visible;
     }
+
+    p {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        font-size: 2em;
+    }
+
+    #head-marker {
+        margin-top: 30vh;
+    }
+}
+
+#content > p {
+    margin: 30px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    position: relative;
+    overflow: hidden;
+}
+
+#content > p > .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1000000;
+    opacity: 50%;
+}
+/*
+@keyframes shmoosh {
+    0% {
+        scale: 1;
+        translate: 10px -30px;
+    }
+
+    38% {
+        scale: 0.8 1;
+        translate: 80% 30%;
+        rotate: 160deg;
+    }
+
+    40% {
+        scale: 0.8 1;
+        translate: 80% 30%;
+        rotate: 160deg;
+    }
+
+    78% {
+        scale: 1.3;
+        translate: 0% 50%;
+        rotate: -20deg;
+    }
+
+    80% {
+        scale: 1.3;
+        translate: 0% 50%;
+        rotate: -20deg;
+    }
+
+    100% {
+        scale: 1;
+        translate: 10px -30px;
+    }
+}
+
+.shmoosh {
+    transform-origin: center;
+    animation: shmoosh 10s linear infinite;
+}*/
+
+.parallax {
+    height: clamp(100px, 40vh, 600px);
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }

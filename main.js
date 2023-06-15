@@ -8,6 +8,9 @@ function clamp(min, val, max) {
     return val;
 }
 
+var ua = window.navigator.userAgent;
+var iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i); // THANKS, STACKOVERFLOW
+
 function getNearestChildIndexTo(element, position) { 
     var nearest = undefined;
     var nearestValue = Infinity;
@@ -70,6 +73,11 @@ const scrollchecks = () => {
             }
         }
     });
+    if (iOS) {
+        Array.from(document.getElementsByClassName("parallax")).forEach((item, i) => {
+            item.style.backgroundPosition = "50% calc(" + (-item.getBoundingClientRect().top) + "px)";
+        });
+    }
 };
 
 
