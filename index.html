@@ -1,143 +1,51 @@
-<!DOCTYPE html>
-
-
-<!--
-    Kuwait flag colors:
-    Green: #007b3a
-    Red: #cf0821
-    Black: black
-    White: white
--->
-
-
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Jhewit | Home</title>
-        <link rel="stylesheet" href="main.css" />
-    </head>
-    <body>
-        <svg width="0" height="0"> <!-- clip paths for the sidebar -->
-            <defs>
-                <clipPath id="design-2" clipPathUnits="objectBoundingBox">
-                    <path d="M 0,1
-                      L 0,0
-                      L 0.8,0
-                      C 0.8 .5, 0.83 .65, 1 1
-                      C .65 1, 0 1, 0 .8
-                      Z" />
-                </clipPath>
-            </defs>
-        </svg>
-        <div id="sider-outer" class="design-1">
-            <div id="sider">
-                <h2>Sidebar</h2>
-                <div id="sider-cats">
-                    <input type="checkbox" id="i_1" class="hidden" />
-                    <label for="i_1">Category 1</label>
-                    <div>
-                        <a href="#">This is a link</a><br>
-                        <a href="#">Another link</a>
-                    </div><br>
-                    <input type="checkbox" id="i_2" class="hidden" />
-                    <label for="i_2">Category 2</label>
-                    <div>
-                        <a href="#">Third link, new category</a><br>
-                        <a href="#">Links.</a>
-                    </div>
-                </div>
-                <img src="res/arrow-none.svg" onclick="toggle_sidebar()" />
-            </div>
-        </div>
-        <div id="outer">
-            <div id="header">
-                <div id="head-marker" class="scrolly"></div>
-                <div id="headin">
-                    <h1>Jhewit</h1>
-                    <div id="links-outer">
-                        <input id="hambugha" type="checkbox" style="display: none;">
-                        <label for="hambugha">Ham</label>
-                        <div id="links">
-                            <div class="link">
-                                <a href="index.html">HOME</a>
-                            </div>
-                            <div></div>
-                            <div class="link">
-                                <a href="about.html">ABOUT JHEWIT</a>
-                            </div>
-                            <div></div>
-                            <div class="link">
-                                <a href="workshop.html">DESIGN WORKSHOP</a>
-                            </div>
-                            <div></div>
-                            <div class="dropdown">
-                                DROPDOWN MENU
-                            </div>
-                            <div>
-                                <div class="dropdown-inner">
-                                    <a>DROPDOWN MENU LINK</a>
-                                </div>
-                            </div>
-                            <!--<div>
-                                <div class="dropdown-inner">
-                                    <a href="#">
-                                        LINK
-                                    </a>
-                                    <a href="#">
-                                        LINK
-                                    </a>
-                                    <a href="#">
-                                        LINK
-                                    </a>
-                                </div>
-                            </div>-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-outer">
-                <img src="res/arrow-left.svg" />
-                <div class="carousel" id="carousel_1">
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);" class="selected">Category #1</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #2</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #3</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #4</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #5</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #6</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #7</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #8</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #9</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #10</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #11</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #12</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #13</div>
-                </div>
-                <img src="res/arrow-right.svg" />
-            </div>
-            <div id="content">
-                <div class="image-relational-scrolling">
+---
+layout: default
+title: Home
+---
+<div class="image-relational-scrolling">
     <div>
         <img src="https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg" class="selected" />
         <img src="https://www.badeloftusa.com/wp-content/uploads/2019/09/BW-02-XL-WHT-2020.jpg" />
         <img src="https://www.applesfromny.com/wp-content/uploads/2020/05/20Ounce_NYAS-Apples2.png" />
         <img src="https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/pi_gqp5ha.jpg" />
-        <img src="https://www.thespruceeats.com/thmb/wiFS2z1vLTt3fHKDVaka5KiWshI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/basic-cherry-pie-recipe-995136-14-dfe79487adf64a848a49dd07983b6614.jpg" />
+        <img
+            src="https://www.thespruceeats.com/thmb/wiFS2z1vLTt3fHKDVaka5KiWshI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/basic-cherry-pie-recipe-995136-14-dfe79487adf64a848a49dd07983b6614.jpg" />
     </div>
     <div>
         <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus optio ratione sit. Quibusdam veritatis nemo distinctio dolorem doloribus quos ullam, quisquam consectetur numquam ab fuga sint, nostrum corporis dolor iusto! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam consequatur suscipit vitae similique nulla animi inventore nisi perferendis eos, itaque nobis odit ut facilis tempore rerum delectus unde ducimus fuga.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus optio ratione sit. Quibusdam
+            veritatis nemo distinctio dolorem doloribus quos ullam, quisquam consectetur numquam ab fuga sint, nostrum
+            corporis dolor iusto! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam consequatur
+            suscipit vitae similique nulla animi inventore nisi perferendis eos, itaque nobis odit ut facilis tempore
+            rerum delectus unde ducimus fuga.
         </p>
         <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, quam quisquam. Iste veniam ut velit. Voluptatem laborum repellat, aliquid nisi earum nesciunt eius voluptatum at quis sint perferendis eos dolore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat temporibus omnis excepturi tempore! Illo maxime vel dolor nulla, velit iure. Dolore asperiores accusantium sunt obcaecati nam doloremque suscipit laborum animi!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, quam quisquam. Iste veniam ut velit.
+            Voluptatem laborum repellat, aliquid nisi earum nesciunt eius voluptatum at quis sint perferendis eos
+            dolore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat temporibus omnis excepturi
+            tempore! Illo maxime vel dolor nulla, velit iure. Dolore asperiores accusantium sunt obcaecati nam
+            doloremque suscipit laborum animi!
         </p>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit labore ut nihil, tempore quis mollitia voluptates magni? Tenetur, corporis voluptates quia earum blanditiis molestias dignissimos provident inventore aspernatur error assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, et rem. Quo corporis dolorum magnam recusandae facilis voluptatum nostrum a, in perferendis sunt numquam maiores corrupti sed excepturi repudiandae. Tempora!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit labore ut nihil, tempore quis
+            mollitia voluptates magni? Tenetur, corporis voluptates quia earum blanditiis molestias dignissimos
+            provident inventore aspernatur error assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Laboriosam, et rem. Quo corporis dolorum magnam recusandae facilis voluptatum nostrum a, in perferendis sunt
+            numquam maiores corrupti sed excepturi repudiandae. Tempora!
         </p>
         <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum accusamus aliquam commodi voluptates laborum, quia sint facilis dolores aliquid eaque repellat dolor dolorem? Temporibus et rem dolorum neque excepturi optio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, adipisci rem natus magni eum ducimus alias tempore reprehenderit nulla architecto eveniet a nemo non quis ipsum quo officiis, vel sit!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum accusamus aliquam commodi voluptates
+            laborum, quia sint facilis dolores aliquid eaque repellat dolor dolorem? Temporibus et rem dolorum neque
+            excepturi optio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, adipisci rem natus magni
+            eum ducimus alias tempore reprehenderit nulla architecto eveniet a nemo non quis ipsum quo officiis, vel
+            sit!
         </p>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum quia laudantium ipsam eius, qui sint. Repellat consectetur asperiores ex ea, earum deserunt in distinctio corrupti, soluta voluptates, tenetur dolore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores animi necessitatibus, quia expedita architecto molestiae autem perferendis nulla minima quisquam consequatur laborum saepe repellat corporis, temporibus quibusdam omnis id nesciunt.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum earum quia laudantium ipsam eius, qui sint.
+            Repellat consectetur asperiores ex ea, earum deserunt in distinctio corrupti, soluta voluptates, tenetur
+            dolore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores animi necessitatibus, quia
+            expedita architecto molestiae autem perferendis nulla minima quisquam consequatur laborum saepe repellat
+            corporis, temporibus quibusdam omnis id nesciunt.
         </p>
     </div>
 </div>
@@ -145,27 +53,9 @@
     Parallaxing image below. For reasons beyond my control it may look bad (or even not function at all) on iOS devices.
     Parallaxes are primarily useful as dividers between paragraphs.
 </p>
-<div class="parallax" style="background-image: url('https://www.thoughtco.com/thmb/EXpjUAx2ZEgV64eKcsAsX7Ucl6w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages_482194715-56a1329e5f9b58b7d0bcf666.jpg');"></div>
+<div class="parallax"
+    style="background-image: url('https://www.thoughtco.com/thmb/EXpjUAx2ZEgV64eKcsAsX7Ucl6w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages_482194715-56a1329e5f9b58b7d0bcf666.jpg');">
+</div>
 <p>
     Generic paragraph element here
 </p>
-
-            </div>
-            <div id="footer">
-                <p>
-                    This is a footer for content to go into.
-                </p>
-                <p>
-                    This is another part of the footer for more content.
-                </p>
-                <p>
-                    The footer is good for a quick About blurb, social icons, etc.
-                </p>
-            </div>
-            <div id="truebottom">
-                Website by <a href="https://swaous.asuscomm.com">Tyler Clarke</a>.
-            </div>
-        </div>
-        <script src="main.js"></script>
-    </body>
-</html>
