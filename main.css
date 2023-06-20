@@ -139,17 +139,39 @@ h1 {
 }
 
 #sider-outer {
-    box-sizing: border-box;
-    background-color: pink;
     margin: 0px;
     padding: 0px;
     position: absolute;
     overflow: visible !important;
     z-index: 1000000;
     width: var(--sidebar-size);
-    top: 0%;
+    top: 50%;
     transform: translateY(-50%);
     min-height: 40vh;
+    background-color: blanchedalmond;
+}
+
+body.sidebar-opened > #sider-outer.design-1 {
+    clip-path: polygon(0% 0%, 0% 90%, 100% 100%, 100vw 100%, 100vw 0%, 100% 10%);
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+body.sidebar-opened > #sider-outer.design-2 {
+    clip-path: url(#design-2);
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    padding-right: 5vw;
+}
+
+#sider-outer.design-4 {
+    height: 100vh;
+    padding-top: 3.5em;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
 }
 
 #sider {
