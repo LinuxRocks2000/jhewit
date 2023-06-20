@@ -465,6 +465,10 @@ h1 {
     #head-marker {
         margin-top: 30vh;
     }
+
+    iframe {
+        --video-width: 90vw !important;
+    }
 }
 
 #content > p {
@@ -532,4 +536,16 @@ h1 {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+iframe {
+    --video-width: 50vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    box-sizing: border-box;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: var(--video-width) !important;
+    height: calc(var(--video-width) * 9/16) !important;
 }
