@@ -57,7 +57,7 @@ const scrollchecks = () => {
         }
     });
     var perc = clamp(0, document.getElementById("outer").scrollTop / (window.innerHeight / 2), 1);
-    document.querySelector("#headin > h1").style.fontSize = 2 + 4 * (1 - perc) + "em";
+    document.querySelector("#headin > a > h1").style.fontSize = 2 + 4 * (1 - perc) + "em";
     document.querySelector("#links").style.opacity = perc;
     document.querySelector("#hambugha + label").style.opacity = perc;
     //document.querySelector("#carousel").style.opacity = perc;
@@ -167,9 +167,14 @@ function toggle_sidebar() {
     document.body.classList.toggle("sidebar-opened");
     var el = document.querySelector("#sider > img");
     if (document.body.classList.contains("sidebar-opened")) {
-        el.src = "res/arrow-left.svg";
+        el.src = "/res/arrow-left.svg";
     }
     else {
-        el.src = "res/arrow-none.svg";
+        el.src = "/res/arrow-none.svg";
     }
+}
+
+function sidebar_off() {
+    //document.body.classList.remove("sidebar-opened");
+    //el.src = "res/arrow-none.svg";
 }

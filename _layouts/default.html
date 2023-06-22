@@ -14,9 +14,9 @@
     <head>
         <meta charset="UTF-8">
         <title>{{ site.title }} | {{ page.title }}</title>
-        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="/main.css" />
     </head>
-    <body>
+    <body onclick="sidebar_off()">
         <svg width="0" height="0"> <!-- clip paths for the sidebar -->
             <defs>
                 <clipPath id="design-2" clipPathUnits="objectBoundingBox">
@@ -33,7 +33,7 @@
             <div id="sider">
                 <h2>Sidebar</h2>
                 <div id="sider-cats">
-                    <input type="checkbox" id="i_1" class="hidden" />
+                    <!--<input type="checkbox" id="i_1" class="hidden" />
                     <label for="i_1">Category 1</label>
                     <div>
                         <a href="#">This is a link</a><br>
@@ -44,40 +44,48 @@
                     <div>
                         <a href="#">Third link, new category</a><br>
                         <a href="#">Links.</a>
-                    </div>
+                    </div>-->
+                    <div><a href="/about">About Us</a></div>
+                    <div><a href="/contact">Contact Us</a></div>
+                    <br>
+                    <div><a href="/services">Services</a></div>
+                    <div><a href="/membership">Membership</a></div>
+                    <div><a href="/volunteer">Volunteer</a></div>
+                    <div><a href="/events">Events</a></div>
+                    <div><a href="/charities">Charities</a></div>
                 </div>
-                <img src="res/arrow-none.svg" onclick="toggle_sidebar()" />
+                <img src="/res/arrow-none.svg" onclick="toggle_sidebar()" />
             </div>
         </div>
         <div id="outer">
             <div id="header">
                 <div id="head-marker" class="scrolly"></div>
                 <div id="headin">
-                    <h1>Jhewit</h1>
+                    <a href="/" style="color: black;"><h1>Jhewit</h1></a>
                     <div id="links-outer">
                         <input id="hambugha" type="checkbox" style="display: none;">
                         <label for="hambugha">Ham</label>
                         <div id="links">
                             <div class="link">
-                                <a href="index.html">HOME</a>
+                                <a href="/">HOME</a>
+                            </div>
+                            <div></div>
+                            <!--<div class="link">
+                                <a href="/about">ABOUT US</a>
                             </div>
                             <div></div>
                             <div class="link">
-                                <a href="about.html">ABOUT JHEWIT</a>
+                                <a href="/contact">CONTACT US</a>
                             </div>
-                            <div></div>
-                            <div class="link">
-                                <a href="workshop.html">DESIGN WORKSHOP</a>
-                            </div>
-                            <div></div>
-                            <div class="dropdown">
+                            <div></div>-->
+                            <!--<div class="dropdown">
                                 DROPDOWN MENU
                             </div>
                             <div>
                                 <div class="dropdown-inner">
                                     <a>DROPDOWN MENU LINK</a>
                                 </div>
-                            </div>
+                            </div>-->
                             <!--<div>
                                 <div class="dropdown-inner">
                                     <a href="#">
@@ -96,23 +104,14 @@
                 </div>
             </div>
             <div class="carousel-outer">
-                <img src="res/arrow-left.svg" />
+                <img src="/res/arrow-left.svg" />
                 <div class="carousel" id="carousel_1">
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);" class="selected">Category #1</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #2</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #3</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #4</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #5</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #6</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #7</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #8</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #9</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #10</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #11</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #12</div>
-                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);">Category #13</div>
+                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);" class="selected"><a href="/intro-to-judaism">Intro to Judaism</a></div>
+                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);"><a href="/humanism"></a>Humanism</a></div>
+                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);"><a href="/jewish-history-culture"></a>Jewish History/Culture</a></div>
+                    <div style="background-image: url(https://www.rebeccas.com/mm5/graphics/00000001/nv1364.jpg);"><a href="/landmarks"></a>Landmarks</a></div>
                 </div>
-                <img src="res/arrow-right.svg" />
+                <img src="/res/arrow-right.svg" />
             </div>
             <div id="content">
                 {{ content }}
@@ -132,6 +131,6 @@
                 © Jhew It Org. All rights reserved. Website by <a href="https://swaous.asuscomm.com">Tyler Clarke</a>.
             </div>
         </div>
-        <script src="main.js"></script>
+        <script src="/main.js"></script>
     </body>
 </html>

@@ -1,5 +1,5 @@
 :root {
-    --sidebar-size: clamp(300px, 20%, 400px);
+    --sidebar-size: clamp(200px, 15%, 400px);
 }
 
 @font-face {
@@ -214,10 +214,14 @@ body:not(.sidebar-opened) > #sider-outer > #sider > img {
     padding-left: 10px;
 }
 
-#sider-cats > div {
+#sider-cats > input + label + div {
     display: none;
     border-left: 2px solid white;
     padding-left: 10px;
+}
+
+#sider-cats > div {
+    padding-bottom: 5px;
 }
 
 #sider-cats > label {
@@ -240,6 +244,7 @@ body:not(.sidebar-opened) > #sider-outer > #sider > img {
     border-right: 2px solid white;
     border-bottom: 2px solid white;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 a {
