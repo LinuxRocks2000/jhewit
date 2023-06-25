@@ -456,7 +456,6 @@ h1 {
     #links-outer {
         display: flex;
         flex-direction: column;
-        font-size: 3em;
     }
 
     #links > div:nth-child(2n) {
@@ -475,10 +474,11 @@ h1 {
     p {
         margin-left: 20px !important;
         margin-right: 20px !important;
+        font-size: 2em;
     }
 
     * {
-        font-size: 3em;
+        /*font-size: 3em;*/
     }
 
     #header {
@@ -491,6 +491,10 @@ h1 {
 
     iframe {
         --video-width: 90vw !important;
+    }
+
+    #sider {
+        font-size: 2em;
     }
 }
 
