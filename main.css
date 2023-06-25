@@ -478,6 +478,10 @@ h1 {
         background-size: auto 100vh;
     }
 
+    #head-marker {
+        padding-top: 0vh;
+    }
+
     iframe {
         --video-width: 90vw !important;
     }
