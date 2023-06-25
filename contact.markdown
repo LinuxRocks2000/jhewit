@@ -2,4 +2,5 @@
 layout: default
 title: Contact Us
 ---
-Contact data here
+
+Kindly contact ovadiah@avrahamsociety.org if you have any questions or concerns. 
