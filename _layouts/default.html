@@ -14,7 +14,7 @@
     <head>
         <meta charset="UTF-8">
         <title>{{ site.title }} | {{ page.title }}</title>
-        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/main.css" />
     </head>
     <body onclick="sidebar_off()" class="sidebar-opened">
         <svg width="0" height="0"> <!-- clip paths for the sidebar -->
@@ -66,18 +66,18 @@ Events
 Others:
 About us
 Contact us -->
-                <div><a href="/about">About Us</a></div>
-                <div><a href="/intro-to-judaism">Intro to Judaism</a></div>
-                <div><a href="/humanism">Humanism</a></div>
-                <div><a href="/jewish-history-culture">Jewish Culture & History</a></div>
+                <div><a href="{{ site.baseurl }}/about">About Us</a></div>
+                <div><a href="{{ site.baseurl }}/intro-to-judaism">Intro to Judaism</a></div>
+                <div><a href="{{ site.baseurl }}/humanism">Humanism</a></div>
+                <div><a href="{{ site.baseurl }}/jewish-history-culture">Jewish Culture & History</a></div>
                 <input type="checkbox" id="i_1" class="hidden" />
                 <label for="i_1">Kashrut</label>
                 <div>
                     <a href="https://www.instagram.com/kosherkuwait">@kosherkuwait</a><br>
                     <a href="https://www.instagram.com/kosheriraq1">@kosheriraq1</a>
                 </div>
-                <div><a href="/membership">Membership</a></div>
-                <div><a href="/contact">Contact Us</a></div>
+                <div><a href="{{ site.baseurl }}/membership">Membership</a></div>
+                <div><a href="{{ site.baseurl }}/contact">Contact Us</a></div>
                 </div>
                 <!--<img src="/res/arrow-none.svg" onclick="toggle_sidebar()" />-->
             </div>
@@ -86,13 +86,13 @@ Contact us -->
             <div id="header">
                 <div id="head-marker" class="scrolly"></div>
                 <div id="headin">
-                    <a href="/" style="color: black;"><h1>{{ site.title }}</h1></a>
+                    <a href="{{ site.baseurl }}/" style="color: black;"><h1>{{ site.title }}</h1></a>
                     <div id="links-outer">
                         <input id="hambugha" type="checkbox" style="display: none;">
-                        <label for="hambugha">Ham</label>
+                        <label for="hambugha" style="display: none;">Ham</label>
                         <div id="links">
                             <div class="link">
-                                <a href="/">HOME</a>
+                                <a href="{{ site.baseurl }}/">HOME</a>
                             </div>
                             <div></div>
                             <!--<div class="link">
@@ -156,6 +156,6 @@ Contact us -->
                 © 2023 Avraham Society. All rights reserved. Website by <a href="https://swaous.asuscomm.com">Tyler Clarke</a>.
             </div>
         </div>
-        <script src="main.js"></script>
+        <script src="{{ site.baseurl }}/main.js"></script>
     </body>
 </html>
