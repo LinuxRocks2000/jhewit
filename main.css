@@ -474,7 +474,8 @@ h1 {
         font-size: 2em;
     }
 
-    #head-marker {
+    #header {
+        background-size: auto 100vh;
     }
 
     iframe {
