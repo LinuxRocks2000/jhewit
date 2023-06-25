@@ -117,7 +117,7 @@ h1 {
 }
 
 #head-marker {
-    margin-top: 10vh;
+    padding-top: 10vh;
 }
 
 #head-marker.scrolly-out + #headin {
