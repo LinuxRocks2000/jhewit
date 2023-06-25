@@ -154,7 +154,7 @@ h1 {
     position: absolute;
     overflow: visible !important;
     z-index: 1000000000000;
-    width: var(--sidebar-size);
+    min-width: var(--sidebar-size);
     top: 50%;
     transform: translateY(-50%);
     min-height: 40vh;
