@@ -157,7 +157,6 @@ h1 {
     min-width: var(--sidebar-size);
     top: 50%;
     transform: translateY(-50%);
-    min-height: 40vh;
     background-color: lightblue;
 }
 
