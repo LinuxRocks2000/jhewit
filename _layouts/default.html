@@ -16,7 +16,7 @@
         <title>{{ site.title }} | {{ page.title }}</title>
         <link rel="stylesheet" href="main.css" />
     </head>
-    <body onclick="sidebar_off()">
+    <body onclick="sidebar_off()" class="sidebar-opened">
         <svg width="0" height="0"> <!-- clip paths for the sidebar -->
             <defs>
                 <clipPath id="design-2" clipPathUnits="objectBoundingBox">
@@ -79,7 +79,7 @@ Contact us -->
                 <div><a href="/membership">Membership</a></div>
                 <div><a href="/contact">Contact Us</a></div>
                 </div>
-                <img src="/res/arrow-none.svg" onclick="toggle_sidebar()" />
+                <!--<img src="/res/arrow-none.svg" onclick="toggle_sidebar()" />-->
             </div>
         </div>
         <div id="outer">
