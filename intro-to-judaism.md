@@ -2,7 +2,6 @@
 layout: default
 title: Intro to Judaism
 ---
-# Intro to Judaism
 
 Judaism is an Abrahamic religion of diverse opinions. It encourages learning, has universalist and particularist features, and pursues the perfection of the world and mankind.
 
