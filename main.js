@@ -1,3 +1,19 @@
+var startX = 0;
+
+window.ontouchstart = (evt) => {
+    startX = evt.touches[0].clientX;
+}
+
+window.ontouchmove = (evt) => {
+    var difX = evt.touches[0].clientX - startX;
+    if (difX > 100) {
+        document.body.classList.add("sidebar-opened");
+    }
+    if (difX < -100) {
+        document.body.classList.remove("sidebar-opened");
+    }
+}
+
 function clamp(min, val, max) {
     if (val < min) {
         val = min;

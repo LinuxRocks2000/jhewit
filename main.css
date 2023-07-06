@@ -196,6 +196,7 @@ body:not(.sidebar-opened) > #sider-outer > #sider {
     overflow: hidden;
     padding: 0;
     margin: 0;
+    display: none;
 }
 
 body:not(.sidebar-opened) > #sider-outer > #sider > img {
@@ -503,6 +504,15 @@ h1 {
     margin-right: 20vw;
     position: relative;
     overflow: hidden;
+}
+
+#content > .wide {
+    margin: 0px;
+    width: 100%;
+}
+
+#content {
+    min-height: 50vh;
 }
 
 #content > p > .overlay {
