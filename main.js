@@ -1,5 +1,13 @@
 var startX = 0;
 
+if (window.location.hash == "#TCAS_sc1") {
+    document.getElementById("outer").scrollTo({
+        top: document.getElementById("content").getBoundingClientRect().top,
+        left: 0,
+        behavior: "smooth"
+    });
+}
+
 window.ontouchstart = (evt) => {
     startX = evt.touches[0].clientX;
 }
