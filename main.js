@@ -14,11 +14,14 @@ window.ontouchstart = (evt) => {
 
 window.ontouchmove = (evt) => {
     var difX = evt.touches[0].clientX - startX;
+    var el = document.querySelector("#sider > img");
     if (difX > 100) {
         document.body.classList.add("sidebar-opened");
+        el.src = "/res/arrow-left.svg";
     }
     if (difX < -100) {
         document.body.classList.remove("sidebar-opened");
+        el.src = "/res/arrow-right.svg";
     }
 }
 
@@ -194,7 +197,7 @@ function toggle_sidebar() {
         el.src = "/res/arrow-left.svg";
     }
     else {
-        el.src = "/res/arrow-none.svg";
+        el.src = "/res/arrow-right.svg";
     }
 }
 

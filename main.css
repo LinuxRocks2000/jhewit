@@ -1,5 +1,7 @@
 :root {
     --sidebar-size: clamp(200px, 15%, 400px);
+    --bg-clr: blanchedalmond;
+    --fg-clr: black;
 }
 
 @font-face {
@@ -49,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(res/Avraham_Society.png);
     background-position: 50% 50%;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     position: relative;
     margin-bottom: 5%;
     /*clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 30% 100%, 0% 90%);*/
@@ -137,12 +139,12 @@ h1 {
     width: calc(100vw); /*- var(--sidebar-size)*/
     transition: margin-left 1s, width 1s;
     /*width: 100vw;*/
-    background-color: black;
-    color: white;
+    background-color: var(--bg-clr);
+    color: var(--fg-clr);
 }
 
 #headin > * {
-    color: white;
+    color: var(--fg-clr);
 }
 
 #head-marker.scrolly-out + #headin > #links > * > *, #head-marker.scrolly-out + #headin > #links > * {
@@ -210,9 +212,9 @@ body:not(.sidebar-opened) > #sider-outer > #sider > img {
     /*right: none;*/
     left: 0px;
     padding-left: 10px;
-    background-color: red;
+    background-color: rgb(117, 96, 63);
     padding: 20px;
-    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    /*clip-path: polygon(0% 0%, 100% 50%, 0% 100%);*/
 }
 
 #sider > img {
@@ -404,7 +406,7 @@ h1 {
 
 #footer > p {
     padding: 2em;
-    color: white;
+    color: var(--fg-clr);
 }
 
 #truebottom {
@@ -413,7 +415,6 @@ h1 {
     padding: 5px;
     color: white;
     font-size: 0.7em;
-    padding-top: 10vh;
 }
 
 .image-relational-scrolling > div:last-child > p > img {
@@ -463,6 +464,7 @@ h1 {
     #links-outer {
         display: flex;
         flex-direction: column;
+        display: none;
     }
 
     #links > div:nth-child(2n) {
@@ -489,7 +491,8 @@ h1 {
     }
 
     #header {
-        background-size: auto 100vh;
+        background-size: 100vw auto;
+        background-repeat: no-repeat;
     }
 
     #head-marker {
@@ -502,6 +505,22 @@ h1 {
 
     #sider {
         font-size: 2em;
+    }
+
+    #head-marker.scrolly-out+#headin {
+        position: static;
+        justify-content: center;
+        transition: background-color 0.3s, color 0.3s;
+        top: 0px;
+        left: 0px;
+        /*color: red;*/
+        /*margin-left: var(--sidebar-size);*/
+        width: calc(100vw);
+        /*- var(--sidebar-size)*/
+        transition: margin-left 1s, width 1s;
+        /*width: 100vw;*/
+        background-color: initial;
+        color: initial;
     }
 }
 
@@ -520,8 +539,9 @@ h1 {
 
 #content {
     min-height: 50vh;
-    background-color: black;
-    color: white;
+    background-color: var(--bg-clr);
+    color: var(--fg-clr);
+    padding-bottom: 10vh;
 }
 
 #content > p > .overlay {
@@ -596,5 +616,5 @@ iframe {
 }
 
 body {
-    background-color: black;
+    background-color: var(--bg-clr);
 }
