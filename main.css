@@ -140,7 +140,7 @@ h1 {
     color: white;
 }
 
-#head-marker.scrolly-out+#headin > * {
+#headin > * {
     color: white;
 }
 
@@ -163,7 +163,7 @@ h1 {
     min-width: var(--sidebar-size);
     top: 50%;
     transform: translateY(-50%);
-    background-color: lightblue;
+    background-color: blanchedalmond;
 }
 
 body.sidebar-opened > #sider-outer.design-1 {
