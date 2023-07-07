@@ -180,14 +180,14 @@ carousel_1.display();
 setInterval(carousel_1.nextAnim, 2000);
 
 function toggle_sidebar() {
-    /*document.body.classList.toggle("sidebar-opened");
+    document.body.classList.toggle("sidebar-opened");
     var el = document.querySelector("#sider > img");
     if (document.body.classList.contains("sidebar-opened")) {
         el.src = "/res/arrow-left.svg";
     }
     else {
         el.src = "/res/arrow-none.svg";
-    }*/
+    }
 }
 
 function sidebar_off() {
