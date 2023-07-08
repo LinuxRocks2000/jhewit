@@ -17,8 +17,28 @@
         <link rel="stylesheet" href="{{ site.baseurl }}/main.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="icon" href="{{ site.baseurl }}/res/Avraham_Society.png">
+        <link rel="icon" href="{{ site.baseurl }}/res/Avraham_Society_icon.png">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Libre+Baskerville&family=Roboto&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
+        <!-- HTML Meta Tags -->
+        <meta name="description" content="{{ site.description }}">
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://avrahamsociety.org">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="{{ site.title }} | {{ page.title }}">
+        <meta property="og:description" content="{{ site.description }}">
+        <meta property="og:image" content="{{ site.baseurl }}/res/Avraham_Society.png">
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="avrahamsociety.org">
+        <meta property="twitter:url" content="https://avrahamsociety.org">
+        <meta name="twitter:title" content="{{ site.title }} | {{ page.title }}">
+        <meta name="twitter:description" content="{{ site.description }}">
+        <meta name="twitter:image" content="{{ site.baseurl }}/res/Avraham_Society.png">
+
+        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
     </head>
     <body onclick="sidebar_off()" class="sidebar-opened">
         <svg width="0" height="0"> <!-- clip paths for the sidebar -->
