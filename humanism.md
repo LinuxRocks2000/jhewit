@@ -14,4 +14,4 @@ We believe in an inclusive Judaism which affirms humanitarian values and is at p
 
 Our focus in Judaism is primarily on secular worldly/humanistic matters namely the concept of Tikkun Olam (fixing the world) along with values such as equality and Social Justice.
 
-Our humanism is apolitical and doesn’t discriminate based on belief, ethnicity, nationality, sex, orientation, race, etc. To us all humans and human lives are inherently equal. 
+Our humanism is apolitical and doesn’t discriminate based on belief, ethnicity, nationality, sex, orientation, race, etc. To us all humans are inherently equal. 
