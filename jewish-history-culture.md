@@ -15,4 +15,4 @@ Kuwait and Iraq have a special place in our hearts given that our initiative was
 
 However as humanists our vision is worldwide and our concern reflects many cultures both Jewish and non-Jewish.
 
-We seek to promote a safe space where differences are understood and respected. This is a community to celebrate humanity as a whole with a focus on Judaism and preserving Sephardi culture. 
+We seek to promote a safe space where differences are understood and respected. This is a community to celebrate humanity as a whole with a focus on Judaism and preserving Mizrahi culture. 
