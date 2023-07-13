@@ -4,7 +4,7 @@ title: Humanism
 ---
 Humanism is a focus on action instead of wishful thinking and an occupation with the affairs and general welfare of humankind.
 
-Our Humanism is based on promoting peace and harmony between peoples and nations. It is also service oriented whereby we seek to be of assistance to the Jewish communities of the MENA region.
+Our Humanism is based on promoting peace and harmony between peoples and nations. It is also service oriented where we seek to be of assistance to the Jewish communities of the MENA region.
 
 We respect all recognized faiths and denominations and tolerate belief or lack thereof. We affirm and appreciate the diversity of humankind across many cultures and traditions as we stand firmly against ethnocentrism and all forms of discrimination.
 
