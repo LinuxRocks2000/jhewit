@@ -3,7 +3,7 @@ layout: default
 title: Membership
 ---
 
-We accept all tolerant and open minded people as members of our initiative. Membership is service-oriented therefore we expect our members to volunteer/contribute to our society.
+We accept all tolerant and open minded people as members of our initiative. Membership is service-oriented therefore we expect our members to volunteer/contribute to our organization.
 
 We interview our applicants and select them on a case by case basis to accommodate their skill sets and make them feel included.
 

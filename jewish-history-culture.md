@@ -9,7 +9,7 @@ There is no way to look Jewish, rather Jews have a variety of customs and tradit
 
 Our focus is on Iraqi Jews and their heritage namely in Kuwait and Iraq and the Mizrahi culture in general. 
 
-We don’t privilege one tradition over another rather we connect with the heritage of our lands and seek to accommodate a plurality of traditions in our members to connect with the wider Jewish world.
+We do not privilege one tradition over another rather we connect with the heritage of our lands and seek to accommodate a plurality of traditions in our members to connect with the wider Jewish world.
 
 Kuwait and Iraq have a special place in our hearts given that our initiative was based on them and serving their Jewish communities
 
