@@ -7,6 +7,9 @@ if (window.location.hash == "#TCAS_sc1") {
         behavior: "smooth"
     });
 }
+else if (window.location.hash.startsWith("#TCAS_fya:")) {
+    document.getElementById("content").innerHTML = "<p>" + decodeURI(window.location.hash.substring(10)) + "</p>";
+}
 
 window.ontouchstart = (evt) => {
     startX = evt.touches[0].clientX;
