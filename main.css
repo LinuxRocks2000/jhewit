@@ -224,6 +224,7 @@ body:not(.sidebar-opened) > #sider-outer > #sider > img {
     right: 0px;
     top: 50%;
     width: 20px;
+    z-index: 100000000000;
 }
 
 .hidden {

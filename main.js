@@ -6,6 +6,7 @@ if (window.location.hash == "#TCAS_sc1") {
         left: 0,
         behavior: "smooth"
     });
+    sidebar_off();
 }
 else if (window.location.hash.startsWith("#TCAS_fya:")) {
     document.getElementById("content").innerHTML = "<p>" + decodeURI(window.location.hash.substring(10)) + "</p>";
@@ -205,6 +206,6 @@ function toggle_sidebar() {
 }
 
 function sidebar_off() {
-    //document.body.classList.remove("sidebar-opened");
-    //el.src = "res/arrow-none.svg";
+    document.body.classList.remove("sidebar-opened");
+    document.querySelector("#sider > img").src = "res/arrow-right.svg";
 }
