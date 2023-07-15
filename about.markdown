@@ -9,4 +9,4 @@ We also seek to promote peace and understanding by raising awareness about Judai
 
 We are a community and safe space that is service oriented based on the principle of Tikkun Olam (fixing the world).
 
-Our leadership team is diverse in age, culture, and experiences.
+Our leadership team is diverse in age, culture, and experiences. We welcome anyone who shares our views and wishes to contribute to our community.
