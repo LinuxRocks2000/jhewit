@@ -195,6 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #sider {
     padding: 20px;
+    padding-right: 40px;
 }
 
 body:not(.sidebar-opened) {
@@ -220,7 +221,7 @@ body:not(.sidebar-opened) > #sider-outer > #sider > img {
 
 #sider > img {
     position: absolute;
-    right: 10px;
+    right: 0px;
     top: 50%;
     width: 20px;
 }

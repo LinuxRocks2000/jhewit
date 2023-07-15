@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About us
+title: About Us
 ---
 
 The Avraham Society is a Jewish Humanist initiative focused on serving the needs of the Jewish communities of Iraq and Kuwait.

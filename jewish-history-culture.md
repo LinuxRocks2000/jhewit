@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The cultural diversity of Judaism
+title: The Cultural Diversity of Judaism
 ---
 
 We celebrate Judaism’s cultural diversity and acknowledge that Jews come from many cultures.
