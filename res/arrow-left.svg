@@ -42,11 +42,11 @@
      transform="translate(0.23499242,-0.29279519)">
     <path
        id="path627"
-       style="fill:none;stroke:black;stroke-width:2.423;stop-color:#000000"
+       style="fill:none;stroke:black;stroke-width:10;stop-color:#000000"
        d="m 12.891763,74.516068 v -5.12e-4" />
     <path
        id="path625"
-       style="fill:none;stroke:black;stroke-width:2.423;stop-color:#000000"
+       style="fill:none;stroke:black;stroke-width:10;stop-color:#000000"
        d="M 66.415659,248.55925 1.2877685,124.70778 66.415471,0.85665987" />
   </g>
 </svg>
