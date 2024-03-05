@@ -1,0 +1,342 @@
+@font-face {
+    font-family: Lobster;
+    src: url(res/Lobster-Regular.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    --deepcream: rgb(247, 233, 213);
+    --cream: rgb(255, 254, 250);
+    --kuwaitgreen: #007b3a;
+    --kuwaitred: #cf0821;
+}
+
+#bg {
+    position: absolute;
+    z-index: -1000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(res/Avraham_Society.png),
+    /*linear-gradient(90deg, var(--kuwaitgreen), var(--cream), var(--kuwaitred), black)*/
+    linear-gradient(45deg, red, rgb(0, 255, 0, 0), green),
+    linear-gradient(135deg, black, rgb(255, 255, 255, 0), white);
+    background-size: contain;
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+    /*background-color: var(--kuwaitgreen);/*white;*/ /*var(--deepcream);*/ /*#993231;*/ /* var(--cream); */
+}
+
+#main {
+    /*display: none;*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+#main > div, #main > p {
+    background-color: var(--cream);
+}
+
+#main > p:first-of-type {
+    padding-top: 50px;
+}
+
+#main > p {
+    padding-bottom: 50px;
+    padding-left: 20vw;
+    padding-right: 30vw;
+    line-height: 2em;
+    font-family: Arial;
+}
+
+#main > div.space {
+    background-color: transparent;
+    height: clamp(150px, 30vh, 500px);
+    border-bottom: 50px solid var(--cream);
+}
+
+#main > div.bottom {
+    background-color: #007b3a; /* kuwait green */
+    display: flex;
+    padding: 50px;
+    width: 100vw;
+    box-sizing: border-box;
+    align-items: center;
+    color: white;
+}
+
+#main > div.bottom > * {
+    flex-basis: 100%;
+    justify-self: start;
+    width: 100%;
+}
+
+#main > .top {
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    background-color: transparent;
+}
+
+#shape {
+    height: calc(10vh + 3px);
+    width: 100vw;
+    background-color: var(--cream);
+    clip-path: polygon(0% calc(100% - 3px), 0% 100%, 100% 100%, 100% calc(100% - 3px), 50% 0%);
+    position: absolute;
+    bottom: -1px;
+}
+
+#title {
+    font-size: 4em;
+    font-family: Lobster;
+    text-align: center;
+    background-color: var(--cream);
+    color: black;
+    padding-top: 52px; /* TODO: make this less worsely */
+    position: sticky;
+    top: 0px;
+    padding-bottom: 10vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% calc(100% - 10vh), 0% 100%);
+}
+
+div#nav {
+    display: flex;
+    justify-content: center;
+}
+
+#nav > a {
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Lobster;
+}
+
+#nav > a:hover {
+    font-weight: bold;
+}
+
+#nav > a::before {
+    content: ">";
+}
+
+#nav > a::after {
+    content: "<";
+}
+
+div#banner {
+    background-color: white;
+    color: black;
+    /*--colorslant-point: clamp(20px, 10vw, 200px);
+    background-image: linear-gradient(90deg, var(--kuwaitred) 0px, var(--kuwaitred) var(--colorslant-point), white var(--colorslant-point), white calc(100% - var(--colorslant-point)), var(--kuwaitred) calc(100% - var(--colorslant-point)));*/
+    border: 4px solid var(--kuwaitred);
+    border-top: none;
+    /*box-shadow: 0px 0px 5px var(--kuwaitred);*/
+    /*box-shadow: 0px 0px 5px black;*/
+    padding-bottom: 5px;
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+#banner > a {
+    height: 2em;
+    float: left;
+}
+
+#banner > a > img {
+    height: 100%;
+}
+
+div#banner > * {
+    flex: 1;
+}
+
+small {
+    font-size: 0.2em !important;
+}
+
+#nav > #nav-expand {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    #main > p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #shape {
+        height: 20px;
+    }
+
+    #title {
+        font-size: 2em;
+        padding-bottom: 20px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% calc(100% - 19px), 0% 100%);
+    }
+
+
+    #main > .top {
+        height: 90vh;
+    }
+
+    .bottom {
+        flex-direction: column-reverse;
+    }
+
+    .bottom > img {
+        width: 100%;
+    }
+
+    #nav {
+        flex-direction: column;
+    }
+
+    #nav > #nav-expand {
+        display: initial;
+    }
+
+    #navExpander:checked + #nav > a {
+        height: 0px;
+        padding: 0px;
+    }
+
+    #navExpander + #nav > a {
+        height: 1em;
+        padding: 2px;
+        overflow: hidden;
+        transition: height 0.3s, padding 0.3s;
+    }
+
+    #navExpander + #nav > #nav-expand::before {
+        content: '↑';
+    }
+
+    #navExpander:checked + #nav > #nav-expand::before {
+        content: '↓';
+    }
+
+    #library {
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column-reverse !important;
+    }
+
+    #libpages {
+        grid-template-columns: 100% !important;
+        padding-left: 0px !important;
+        max-width: unset !important;
+    }
+}
+
+#plug {
+    background-color: black !important;
+    color: white;
+    text-align: center;
+    font-size: 0.75em;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#libpages {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 10vw;
+    max-width: 60vw;
+}
+
+#libpages > a {
+    border-top: 4px solid var(--kuwaitred);
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#libpages > a > span:first-child {
+    font-size: 1.5em;
+}
+
+
+#libpages > a > p {
+    position: relative;
+}
+
+#libpages > a > p::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(transparent 0%, white 100%);
+    z-index: 100000;
+}
+
+#libpages > a > span:last-child {
+    position: relative;
+}
+
+#libpages > a > span:last-child::before {
+    content: "";
+    transform: translateY(-8px);
+    height: 1px;
+    width: 60%;
+    display: inline-block;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+#libpages > a:hover > span:last-child::before {
+    content: "";
+    transform: translateY(-8px);
+    height: 1px;
+    width: 80%;
+    display: inline-block;
+    background-color: black;
+}
+
+#library {
+    display: flex;
+    flex-direction: row;
+}
+
+#study {
+    flex: 0 1 auto;
+}
+
+#study-inner {
+    background-color: var(--deepcream);
+    padding: 40px;
+    margin: 10px;
+    border-radius: 20px;
+    position: sticky;
+    top: 40%;
+}
+
+#study-inner > div {
+    border-top: 1px solid black;
+    padding: 20px;
+    color: #111111;
+}
+
+#libpages {
+    flex: 1 1 min-content;
+}

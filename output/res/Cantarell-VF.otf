@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html class="html" lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>GNOME &#8211; Simple, beautiful, elegant.</title>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='dns-prefetch' href='//www.gnome.org' />
+<link rel="alternate" type="application/rss+xml" title="GNOME &raquo; Feed" href="https://www.gnome.org/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.gnome.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://www.gnome.org/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' media='all' />
+<style id='wp-block-library-theme-inline-css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:"0 0 1em 0"}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}
+</style>
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://www.gnome.org/wp-includes/css/classic-themes.min.css?ver=1' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='font-awesome-css' href='https://www.gnome.org/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=5.15.1' media='all' />
+<link rel='stylesheet' id='simple-line-icons-css' href='https://www.gnome.org/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0' media='all' />
+<link rel='stylesheet' id='oceanwp-style-css' href='https://www.gnome.org/wp-content/themes/oceanwp/assets/css/style.min.css?ver=3.3.6' media='all' />
+<link rel='stylesheet' id='oceanwp-google-font-source-sans-pro-css' href='https://www.gnome.org/wp-content/uploads/oceanwp-webfonts-css/31de787c730bc66b8de45b62faca848c.css?ver=6.1.1' media='all' />
+<link rel='stylesheet' id='oe-widgets-style-css' href='https://www.gnome.org/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=6.1.1' media='all' />
+<script src='https://www.gnome.org/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script src='https://www.gnome.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.gnome.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.gnome.org/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.1.1" />
+<link rel="canonical" href="https://www.gnome.org/" />
+<link rel='shortlink' href='https://www.gnome.org/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.gnome.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.gnome.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.gnome.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.gnome.org%2F&#038;format=xml" />
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//webstats.gnome.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//webstats.gnome.org/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code --><link rel="icon" href="https://www.gnome.org/wp-content/uploads/2020/08/cropped-icon-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://www.gnome.org/wp-content/uploads/2020/08/cropped-icon-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.gnome.org/wp-content/uploads/2020/08/cropped-icon-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://www.gnome.org/wp-content/uploads/2020/08/cropped-icon-270x270.jpg" />
+		<style id="wp-custom-css">
+			.page-header-title{font-size:42px}.wp-block-button a{text-decoration:none !important}.wp-block-button a:hover{color:#e9e9e9}.custom-pad-left{padding-left:20px}		</style>
+		<!-- OceanWP CSS -->
+<style type="text/css">
+/* General CSS */a:hover,a.light:hover,.theme-heading .text::before,.theme-heading .text::after,#top-bar-content >a:hover,#top-bar-social li.oceanwp-email a:hover,#site-navigation-wrap .dropdown-menu >li >a:hover,#site-header.medium-header #medium-searchform button:hover,.oceanwp-mobile-menu-icon a:hover,.blog-entry.post .blog-entry-header .entry-title a:hover,.blog-entry.post .blog-entry-readmore a:hover,.blog-entry.thumbnail-entry .blog-entry-category a,ul.meta li a:hover,.dropcap,.single nav.post-navigation .nav-links .title,body .related-post-title a:hover,body #wp-calendar caption,body .contact-info-widget.default i,body .contact-info-widget.big-icons i,body .custom-links-widget .oceanwp-custom-links li a:hover,body .custom-links-widget .oceanwp-custom-links li a:hover:before,body .posts-thumbnails-widget li a:hover,body .social-widget li.oceanwp-email a:hover,.comment-author .comment-meta .comment-reply-link,#respond #cancel-comment-reply-link:hover,#footer-widgets .footer-box a:hover,#footer-bottom a:hover,#footer-bottom #footer-bottom-menu a:hover,.sidr a:hover,.sidr-class-dropdown-toggle:hover,.sidr-class-menu-item-has-children.active >a,.sidr-class-menu-item-has-children.active >a >.sidr-class-dropdown-toggle,input[type=checkbox]:checked:before{color:#4a86cf}.single nav.post-navigation .nav-links .title .owp-icon use,.blog-entry.post .blog-entry-readmore a:hover .owp-icon use,body .contact-info-widget.default .owp-icon use,body .contact-info-widget.big-icons .owp-icon use{stroke:#4a86cf}input[type="button"],input[type="reset"],input[type="submit"],button[type="submit"],.button,#site-navigation-wrap .dropdown-menu >li.btn >a >span,.thumbnail:hover i,.post-quote-content,.omw-modal .omw-close-modal,body .contact-info-widget.big-icons li:hover i,body div.wpforms-container-full .wpforms-form input[type=submit],body div.wpforms-container-full .wpforms-form button[type=submit],body div.wpforms-container-full .wpforms-form .wpforms-page-button{background-color:#4a86cf}.thumbnail:hover .link-post-svg-icon{background-color:#4a86cf}body .contact-info-widget.big-icons li:hover .owp-icon{background-color:#4a86cf}.widget-title{border-color:#4a86cf}blockquote{border-color:#4a86cf}#searchform-dropdown{border-color:#4a86cf}.dropdown-menu .sub-menu{border-color:#4a86cf}.blog-entry.large-entry .blog-entry-readmore a:hover{border-color:#4a86cf}.oceanwp-newsletter-form-wrap input[type="email"]:focus{border-color:#4a86cf}.social-widget li.oceanwp-email a:hover{border-color:#4a86cf}#respond #cancel-comment-reply-link:hover{border-color:#4a86cf}body .contact-info-widget.big-icons li:hover i{border-color:#4a86cf}#footer-widgets .oceanwp-newsletter-form-wrap input[type="email"]:focus{border-color:#4a86cf}blockquote,.wp-block-quote{border-left-color:#4a86cf}body .contact-info-widget.big-icons li:hover .owp-icon{border-color:#4a86cf}input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,button[type="submit"]:hover,input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,button[type="submit"]:focus,.button:hover,.button:focus,#site-navigation-wrap .dropdown-menu >li.btn >a:hover >span,.post-quote-author,.omw-modal .omw-close-modal:hover,body div.wpforms-container-full .wpforms-form input[type=submit]:hover,body div.wpforms-container-full .wpforms-form button[type=submit]:hover,body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover{background-color:#4a86cf}body{background-attachment:fixed}a:hover{color:#4a86cf}a:hover .owp-icon use{stroke:#4a86cf}.separate-layout .content-area,.separate-layout.content-left-sidebar .content-area,.content-both-sidebars.scs-style .content-area,.separate-layout.content-both-sidebars.ssc-style .content-area,body.separate-blog.separate-layout #blog-entries >*,body.separate-blog.separate-layout .oceanwp-pagination,body.separate-blog.separate-layout .blog-entry.grid-entry .blog-entry-inner{padding:20px}.separate-layout.content-full-width .content-area{padding:20px !important}.separate-layout .widget-area .sidebar-box{padding:20px}@media only screen and (min-width:960px){.content-area,.content-left-sidebar .content-area{width:82%}}@media only screen and (min-width:960px){.widget-area,.content-left-sidebar .widget-area{width:18%}}#main #content-wrap,.separate-layout #main #content-wrap{padding-top:0;padding-bottom:20px}.page-header,.has-transparent-header .page-header{padding:15px 0 5px 0}.page-header .page-header-title,.page-header.background-image-page-header .page-header-title{color:#4a86cf}.site-breadcrumbs a:hover,.background-image-page-header .site-breadcrumbs a:hover{color:#4a86cf}.site-breadcrumbs a:hover .owp-icon use,.background-image-page-header .site-breadcrumbs a:hover .owp-icon use{stroke:#4a86cf}#scroll-top{font-size:24px}#scroll-top .owp-icon{width:24px;height:24px}body .theme-button,body input[type="submit"],body button[type="submit"],body button,body .button,body div.wpforms-container-full .wpforms-form input[type=submit],body div.wpforms-container-full .wpforms-form button[type=submit],body div.wpforms-container-full .wpforms-form .wpforms-page-button{background-color:#4a86cf}body .theme-button:hover,body input[type="submit"]:hover,body button[type="submit"]:hover,body button:hover,body .button:hover,body div.wpforms-container-full .wpforms-form input[type=submit]:hover,body div.wpforms-container-full .wpforms-form input[type=submit]:active,body div.wpforms-container-full .wpforms-form button[type=submit]:hover,body div.wpforms-container-full .wpforms-form button[type=submit]:active,body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover,body div.wpforms-container-full .wpforms-form .wpforms-page-button:active{background-color:#4a86cf}/* Blog CSS */.single-post.content-max-width #wrap .thumbnail,.single-post.content-max-width #wrap .wp-block-buttons,.single-post.content-max-width #wrap .wp-block-verse,.single-post.content-max-width #wrap .entry-header,.single-post.content-max-width #wrap ul.meta,.single-post.content-max-width #wrap .entry-content p,.single-post.content-max-width #wrap .entry-content h1,.single-post.content-max-width #wrap .entry-content h2,.single-post.content-max-width #wrap .entry-content h3,.single-post.content-max-width #wrap .entry-content h4,.single-post.content-max-width #wrap .entry-content h5,.single-post.content-max-width #wrap .entry-content h6,.single-post.content-max-width #wrap .wp-block-image,.single-post.content-max-width #wrap .wp-block-gallery,.single-post.content-max-width #wrap .wp-block-video,.single-post.content-max-width #wrap .wp-block-quote,.single-post.content-max-width #wrap .wp-block-text-columns,.single-post.content-max-width #wrap .wp-block-code,.single-post.content-max-width #wrap .entry-content ul,.single-post.content-max-width #wrap .entry-content ol,.single-post.content-max-width #wrap .wp-block-cover-text,.single-post.content-max-width #wrap .wp-block-cover,.single-post.content-max-width #wrap .wp-block-columns,.single-post.content-max-width #wrap .post-tags,.single-post.content-max-width #wrap .comments-area,.single-post.content-max-width #wrap .wp-block-embed,#wrap .wp-block-separator.is-style-wide:not(.size-full){max-width:1024px}.single-post.content-max-width #wrap .wp-block-image.alignleft,.single-post.content-max-width #wrap .wp-block-image.alignright{max-width:512px}.single-post.content-max-width #wrap .wp-block-image.alignleft{margin-left:calc( 50% - 512px)}.single-post.content-max-width #wrap .wp-block-image.alignright{margin-right:calc( 50% - 512px)}.single-post.content-max-width #wrap .wp-block-embed,.single-post.content-max-width #wrap .wp-block-verse{margin-left:auto;margin-right:auto}/* Header CSS */#site-logo #site-logo-inner,.oceanwp-social-menu .social-menu-inner,#site-header.full_screen-header .menu-bar-inner,.after-header-content .after-header-content-inner{height:68px}#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a,.mobile-menu-close,.after-header-content-inner >a{line-height:68px}#site-header,.has-transparent-header .is-sticky #site-header,.has-vh-transparent .is-sticky #site-header.vertical-header,#searchform-header-replace{background-color:#4a86cf}#site-header{border-color:#ffffff}#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}#site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-width:250px}#site-header #site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-height:170px}.effect-one #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-three #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-five #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-five #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-nine #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-nine #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after{background-color:#ffffff}.effect-four #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-four #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li >a.menu-link:hover >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li.sfHover >a.menu-link >span:after{color:#ffffff}.effect-seven #site-navigation-wrap .dropdown-menu >li >a.menu-link:hover >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li.sfHover >a.menu-link >span:after{text-shadow:10px 0 #ffffff,-10px 0 #ffffff}#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a,#searchform-header-replace-close{color:#ffffff}#site-navigation-wrap .dropdown-menu >li >a .owp-icon use,.oceanwp-mobile-menu-icon a .owp-icon use,#searchform-header-replace-close .owp-icon use{stroke:#ffffff}#site-navigation-wrap .dropdown-menu >li >a:hover,.oceanwp-mobile-menu-icon a:hover,#searchform-header-replace-close:hover{color:#8ed5ff}#site-navigation-wrap .dropdown-menu >li >a:hover .owp-icon use,.oceanwp-mobile-menu-icon a:hover .owp-icon use,#searchform-header-replace-close:hover .owp-icon use{stroke:#8ed5ff}#site-navigation-wrap .dropdown-menu >.current-menu-item >a,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a,#site-navigation-wrap .dropdown-menu >.current-menu-item >a:hover,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a:hover{color:#ffffff}#site-navigation-wrap .dropdown-menu >.current-menu-item >a,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a,#site-navigation-wrap .dropdown-menu >.current-menu-item >a:hover,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a:hover{background-color:#6797ce}.dropdown-menu .sub-menu{min-width:200px}.dropdown-menu .sub-menu,#searchform-dropdown,.current-shop-items-dropdown{border-color:#777777}a.sidr-class-toggle-sidr-close{background-color:#f2f2f2}#sidr li,#sidr ul,#mobile-dropdown ul li,#mobile-dropdown ul li ul{border-color:#ededed}body .sidr a,body .sidr-class-dropdown-toggle,#mobile-dropdown ul li a,#mobile-dropdown ul li a .dropdown-toggle,#mobile-fullscreen ul li a,#mobile-fullscreen .oceanwp-social-menu.simple-social ul li a{color:#4a86cf}#mobile-fullscreen a.close .close-icon-inner,#mobile-fullscreen a.close .close-icon-inner::after{background-color:#4a86cf}body .sidr a:hover,body .sidr-class-dropdown-toggle:hover,body .sidr-class-dropdown-toggle .fa,body .sidr-class-menu-item-has-children.active >a,body .sidr-class-menu-item-has-children.active >a >.sidr-class-dropdown-toggle,#mobile-dropdown ul li a:hover,#mobile-dropdown ul li a .dropdown-toggle:hover,#mobile-dropdown .menu-item-has-children.active >a,#mobile-dropdown .menu-item-has-children.active >a >.dropdown-toggle,#mobile-fullscreen ul li a:hover,#mobile-fullscreen .oceanwp-social-menu.simple-social ul li a:hover{color:#16a9ff}#mobile-fullscreen a.close:hover .close-icon-inner,#mobile-fullscreen a.close:hover .close-icon-inner::after{background-color:#16a9ff}/* Footer Widgets CSS */#footer-widgets{background-color:#1b1b1b}#footer-widgets,#footer-widgets p,#footer-widgets li a:before,#footer-widgets .contact-info-widget span.oceanwp-contact-title,#footer-widgets .recent-posts-date,#footer-widgets .recent-posts-comments,#footer-widgets .widget-recent-posts-icons li .fa{color:#ffffff}#footer-widgets li,#footer-widgets #wp-calendar caption,#footer-widgets #wp-calendar th,#footer-widgets #wp-calendar tbody,#footer-widgets .contact-info-widget i,#footer-widgets .oceanwp-newsletter-form-wrap input[type="email"],#footer-widgets .posts-thumbnails-widget li,#footer-widgets .social-widget li a{border-color:#1b1b1b}#footer-widgets .contact-info-widget .owp-icon{border-color:#1b1b1b}#footer-widgets .footer-box a:hover,#footer-widgets a:hover{color:#4a86cf}/* Footer Bottom CSS */#footer-bottom{padding:20px 0 20px 0}#footer-bottom a:hover,#footer-bottom #footer-bottom-menu a:hover{color:#4a86cf}/* Sidebar CSS */.widget-title{border-color:#4a86cf}.widget-title{margin-bottom:15px}/* Typography CSS */body{font-family:Source Sans Pro;font-style:normal;font-size:16px;color:#494949;line-height:1.5;text-transform:none}h1,h2,h3,h4,h5,h6,.theme-heading,.widget-title,.oceanwp-widget-recent-posts-title,.comment-reply-title,.entry-title,.sidebar-box .widget-title{font-family:Source Sans Pro}h1{font-size:36px;color:#4a86cf}h2{font-weight:500;font-size:24px;color:#4a86cf;line-height:1.8}h3{line-height:1.2}h4{line-height:1.2}#site-navigation-wrap .dropdown-menu >li >a,#site-header.full_screen-header .fs-dropdown-menu >li >a,#site-header.top-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.center-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.medium-header #site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a{font-family:Source Sans Pro;font-weight:400;font-size:18px;letter-spacing:1px}.dropdown-menu ul li a.menu-link,#site-header.full_screen-header .fs-dropdown-menu ul.sub-menu li a{font-family:Source Sans Pro;font-size:16px}.sidebar-box .widget-title{font-size:15px;line-height:1.5}#footer-bottom #copyright{font-size:14px}
+</style></head>
+
+<body class="home page-template-default page page-id-14721 wp-custom-logo wp-embed-responsive oceanwp-theme sidebar-mobile default-breakpoint content-full-width content-max-width page-header-disabled has-fixed-footer" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+
+
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+	
+	<div id="outer-wrap" class="site clr">
+
+		<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+		
+		<div id="wrap" class="clr">
+
+			
+			
+<header id="site-header" class="minimal-header clr" data-height="68" itemscope="itemscope" itemtype="https://schema.org/WPHeader" role="banner">
+
+	
+					
+			<div id="site-header-inner" class="clr container">
+
+				
+				
+
+<div id="site-logo" class="clr" itemscope itemtype="https://schema.org/Brand" >
+
+	
+	<div id="site-logo-inner" class="clr">
+
+		<a href="https://www.gnome.org/" class="custom-logo-link" rel="home" aria-current="page"><img width="150" height="65" src="https://www.gnome.org/wp-content/uploads/2020/08/cropped-logo.png" class="custom-logo" alt="GNOME" decoding="async" srcset="https://www.gnome.org/wp-content/uploads/2020/08/cropped-logo.png 1x, https://www.gnome.org/wp-content/uploads/2020/08/logo-big.png 2x" /></a>
+	</div><!-- #site-logo-inner -->
+
+	
+	
+</div><!-- #site-logo -->
+
+			<div id="site-navigation-wrap" class="no-top-border clr">
+			
+			
+			
+			<nav id="site-navigation" class="navigation main-navigation clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="navigation" >
+
+				<ul id="menu-main" class="main-menu dropdown-menu sf-menu"><li id="menu-item-17499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17499"><a href="https://www.gnome.org/getting-gnome/" class="menu-link"><span class="text-wrap">Get GNOME</span></a></li><li id="menu-item-14925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-14925"><a href="https://www.gnome.org/about-us/" class="menu-link"><span class="text-wrap">About Us<i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-14797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14797"><a href="https://www.gnome.org/technologies/" class="menu-link"><span class="text-wrap">Technologies</span></a></li>	<li id="menu-item-16831" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16831"><a target="_blank" href="https://foundation.gnome.org/" class="menu-link"><span class="text-wrap">GNOME Foundation</span></a></li></ul>
+</li><li id="menu-item-14902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14902"><a href="https://www.gnome.org/get-involved/" class="menu-link"><span class="text-wrap">Get Involved</span></a></li><li id="menu-item-17337" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-17337"><a href="https://events.gnome.org/" class="menu-link"><span class="text-wrap">Events<i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-17340" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17340"><a href="https://www.guadec.org" class="menu-link"><span class="text-wrap">GUADEC</span></a></li>	<li id="menu-item-17342" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17342"><a href="https://events.gnome.org/event/94/" class="menu-link"><span class="text-wrap">GNOME Asia</span></a></li>	<li id="menu-item-17343" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17343"><a href="https://events.gnome.org/category/7/" class="menu-link"><span class="text-wrap">GNOME Africa</span></a></li></ul>
+</li><li id="menu-item-14931" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14931"><a target="_blank" href="https://shop.gnome.org" class="menu-link"><span class="text-wrap">Shop</span></a></li><li id="menu-item-16189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16189"><a href="https://www.gnome.org/donate/" class="menu-link"><span class="text-wrap">Donate</span></a></li><li class="search-toggle-li" ><a href="javascript:void(0)" class="site-search-toggle search-dropdown-toggle" aria-label="Search website"><i class=" icon-magnifier" aria-hidden="true" role="img"></i></a></li></ul>
+<div id="searchform-dropdown" class="header-searchform-wrap clr" >
+	
+<form role="search" method="get" class="searchform" action="https://www.gnome.org/">
+	<label for="ocean-search-form-1">
+		<span class="screen-reader-text">Search this website</span>
+		<input type="search" id="ocean-search-form-1" class="field" autocomplete="off" placeholder="Search" name="s">
+			</label>
+	</form>
+</div><!-- #searchform-dropdown -->
+
+			</nav><!-- #site-navigation -->
+
+			
+			
+					</div><!-- #site-navigation-wrap -->
+			
+		
+	
+				
+	
+	<div class="oceanwp-mobile-menu-icon clr mobile-right">
+
+		
+		
+		
+		<a href="#" class="mobile-menu"  aria-label="Mobile Menu">
+							<i class="fa fa-bars" aria-hidden="true"></i>
+						</a>
+
+		
+		
+		
+	</div><!-- #oceanwp-mobile-menu-navbar -->
+
+	
+
+			</div><!-- #site-header-inner -->
+
+			
+			
+			
+		
+		
+</header><!-- #site-header -->
+
+
+			
+			<main id="main" class="site-main clr"  role="main">
+
+				
+	
+	<div id="content-wrap" class="container clr">
+
+		
+		<div id="primary" class="content-area clr">
+
+			
+			<div id="content" class="site-content clr">
+
+				
+				
+<article class="single-page-article clr">
+
+	
+<div class="entry clr" itemprop="text">
+
+	
+	
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image alignwide size-full"><img decoding="async" width="1822" height="972" src="https://www.gnome.org/wp-content/uploads/2021/03/wgo-splash-40.png" alt="GNOME 40" class="wp-image-16970" srcset="https://www.gnome.org/wp-content/uploads/2021/03/wgo-splash-40.png 1822w, https://www.gnome.org/wp-content/uploads/2021/03/wgo-splash-40-300x160.png 300w, https://www.gnome.org/wp-content/uploads/2021/03/wgo-splash-40-1024x546.png 1024w, https://www.gnome.org/wp-content/uploads/2021/03/wgo-splash-40-768x410.png 768w, https://www.gnome.org/wp-content/uploads/2021/03/wgo-splash-40-1536x819.png 1536w" sizes="(max-width: 1822px) 100vw, 1822px" /></figure>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h1 class="has-text-align-center" id="get-things-done-with-ease-comfort-and-control">Get things done with ease, comfort, and control.</h1>
+
+
+
+<p class="has-text-align-center">An easy and elegant way to use your computer, GNOME 43 is designed to help you have the best possible computing experience. </p>
+
+
+
+<div class="is-horizontal is-content-justification-center is-layout-flex wp-container-2 wp-block-buttons">
+<div class="wp-block-button button-url"><a class="wp-block-button__link has-background" href="/getting-gnome" style="border-radius:8px;background-color:#1a5fb4">Get GNOME</a></div>
+</div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator has-text-color has-css-opacity has-background is-style-wide" style="background-color:#2ec27e;color:#2ec27e"/>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:41% auto"><figure class="wp-block-media-text__media"><img decoding="async" loading="lazy" width="1919" height="1079" src="https://www.gnome.org/wp-content/uploads/2021/03/overview.png" alt="GNOME 40 overview" class="wp-image-16961 size-full" srcset="https://www.gnome.org/wp-content/uploads/2021/03/overview.png 1919w, https://www.gnome.org/wp-content/uploads/2021/03/overview-300x169.png 300w, https://www.gnome.org/wp-content/uploads/2021/03/overview-1024x576.png 1024w, https://www.gnome.org/wp-content/uploads/2021/03/overview-768x432.png 768w, https://www.gnome.org/wp-content/uploads/2021/03/overview-1536x864.png 1536w" sizes="(max-width: 1919px) 100vw, 1919px" /></figure><div class="wp-block-media-text__content">
+<h2 id="simple-and-easy-to-use">Simple and Easy to Use</h2>
+
+
+
+<p>Every part of GNOME 43 has been designed to make it simple and easy to use. The Activities Overview is a simple way to access all your basic tasks. A press of a button is all it takes to view your open windows, launch applications, or check if you have new messages. Having everything in one convenient place means you don&#8217;t have to learn your way around a maze of different technologies.</p>
+</div></div>
+
+
+
+<hr class="wp-block-separator has-text-color has-css-opacity has-background is-style-dots" style="background-color:#2ec27e;color:#2ec27e"/>
+
+
+
+<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile" style="grid-template-columns:auto 41%"><figure class="wp-block-media-text__media"><img decoding="async" loading="lazy" width="1024" height="576" src="https://www.gnome.org/wp-content/uploads/2021/03/folders-1024x576.png" alt="GNOME 40 folders" class="wp-image-16966 size-full" srcset="https://www.gnome.org/wp-content/uploads/2021/03/folders-1024x576.png 1024w, https://www.gnome.org/wp-content/uploads/2021/03/folders-300x169.png 300w, https://www.gnome.org/wp-content/uploads/2021/03/folders-768x432.png 768w, https://www.gnome.org/wp-content/uploads/2021/03/folders-1536x864.png 1536w, https://www.gnome.org/wp-content/uploads/2021/03/folders.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure><div class="wp-block-media-text__content">
+<h2 id="intuitive-and-efficient">Intuitive and Efficient</h2>
+
+
+
+<p>GNOME 43 provides a focused working environment that helps you get things done. It is packed with features that will make you more productive: a powerful search feature that helps you access all your work from one place; side-by-side windows that make it easy to view several documents at the same time; seamless integration with online accounts which allows you to access all your data in one place; and a messaging system that comfortably deals with notifications, letting you quickly respond in place or return to them in a convenient time.</p>
+</div></div>
+
+
+
+<hr class="wp-block-separator has-text-color has-css-opacity has-background is-style-dots" style="background-color:#2ec27e;color:#2ec27e"/>
+
+
+
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:41% auto"><figure class="wp-block-media-text__media"><img decoding="async" loading="lazy" width="1024" height="576" src="https://www.gnome.org/wp-content/uploads/2022/03/notifications-1024x576-1.jpg" alt="" class="wp-image-17525 size-full" srcset="https://www.gnome.org/wp-content/uploads/2022/03/notifications-1024x576-1.jpg 1024w, https://www.gnome.org/wp-content/uploads/2022/03/notifications-1024x576-1-300x169.jpg 300w, https://www.gnome.org/wp-content/uploads/2022/03/notifications-1024x576-1-768x432.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure><div class="wp-block-media-text__content">
+<h2 id="finely-crafted">Finely Crafted</h2>
+
+
+
+<p>Every aspect of GNOME 43 has been crafted to fit together as a harmonious whole, providing a consistent and integrated experience. Our attention to detail means a smooth and polished product that lets you do the things you want without getting in the way. GNOME 43 is satisfying to use and beautiful to behold.</p>
+</div></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="is-layout-flow wp-block-group alignwide"><div class="wp-block-group__inner-container"></div></div>
+
+
+
+<hr class="wp-block-separator has-text-color has-css-opacity has-background is-style-wide" style="background-color:#2ec27e;color:#2ec27e"/>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="has-text-align-center" id="and-much-much-more">And much, much more&#8230;</h2>
+
+
+
+<div class="is-horizontal is-content-justification-center is-layout-flex wp-container-4 wp-block-buttons">
+<div class="wp-block-button button-url"><a class="wp-block-button__link has-background" href="/getting-gnome" style="border-radius:8px;background-color:#1a5fb4">Get GNOME</a></div>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-css-opacity has-background is-style-wide" style="background-color:#2ec27e;color:#2ec27e"/>
+
+
+
+<h2 class="has-text-align-center" id="gnome-supporters">GNOME Supporters</h2>
+
+
+
+<p class="has-text-align-center">GNOME is supported by our generous network of supporters—one-time donors, sponsors, Friends of GNOME, infrastructure supporters, and our Advisory Board.</p>
+
+
+<div  class="lgx_logo_slider_app_wrapper lgx-logo-slider-wp"><div class="lgx-logo-wrapper  nav-position-v-mid-hover hover-default"  ><div class="owl-carousel lgx-logo-carousel"  data-autoplaytimeout="5000"  data-autoplayspeed="2000"  data-margin="10"  data-loop="true"  data-autoplay="true"  data-autoplayhoverpause="true"  data-dots="true"  data-itemlarge="5"  data-itemdesk="4"  data-itemtablet="3"  data-itemmobile="2"  data-navlarge="true"  data-navdesk="true"  data-navtablet="true"  data-navmobile="true"  ><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://abusix.com" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2022/12/dddc10fe-5c3f-4d30-a380-52001a1cd648-1611662389702.png" style="max-width: 350px;max-height: 350px;"   alt="" title="Abusix" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://www.fastly.com/" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2022/12/Fastly.png" style="max-width: 350px;max-height: 350px;"   alt="" title="Fastly" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://www.cdn77.com/" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2022/01/CDN77.png" style="max-width: 350px;max-height: 350px;"   alt="CDN77" title="CDN77" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://deploy.equinix.com/" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2021/03/equinix.png" style="max-width: 350px;max-height: 350px;"   alt="" title="Equinix" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://osuosl.org/" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2021/03/osl.png" style="max-width: 350px;max-height: 350px;"   alt="OSL Open Source Lab" title="OSL" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://www.digitalocean.com/" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2021/03/digitalocean.png" style="max-width: 350px;max-height: 350px;"   alt="DigitalOcean" title="DigitalOcean" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://www.codethink.co.uk/" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2021/03/codethink-e1614993414347.png" style="max-width: 350px;max-height: 350px;"   alt="Codethink" title="Codethink" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://aws.amazon.com/what-is-cloud-computing" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2021/03/aws.png" style="max-width: 350px;max-height: 350px;"   alt="AWS" title="AWS" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://www.suse.com/" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2021/03/suse-logo.png" style="max-width: 350px;max-height: 350px;"   alt="SUSE" title="SUSE" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://sugarlabs.org/" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2021/03/sugarlabs-e1614993431769.png" style="max-width: 350px;max-height: 350px;"   alt="sugarlabs" title="sugarlabs" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://www.redhat.com/en" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2021/03/redhat.png" style="max-width: 350px;max-height: 350px;"   alt="Red Hat" title="Red Hat" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://about.google/?fg=1&#038;utm_source=google-US&#038;utm_medium=referral&#038;utm_campaign=hp-header" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2021/03/google.png" style="max-width: 350px;max-height: 350px;"   alt="Google" title="Google" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://endlessos.com/home/" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2021/03/endless.png" style="max-width: 350px;max-height: 350px;"   alt="Endless" title="Endless" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://www.debian.org/" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2021/03/debian.png" style="max-width: 350px;max-height: 350px;"   alt="Debian" title="Debian" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://canonical.com/" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2021/03/canonical.png" style="max-width: 350px;max-height: 350px;"   alt="Canonical" title="Canonical" /></a></div></div><div class="item lgx-log-item" ><div class="lgx-logo-item" ><a href="https://www.documentfoundation.org/" target="_blank"><img class="lgx-logo-img skip-lazy" src="https://www.gnome.org/wp-content/uploads/2021/03/thedocumentfoundation.png" style="max-width: 350px;max-height: 350px;"   alt="The Document Foundation" title="The Document Foundation" /></a></div></div></div></div></div>
+
+
+
+<div class="is-horizontal is-content-justification-center is-layout-flex wp-container-5 wp-block-buttons">
+<div class="wp-block-button button-url"><a class="wp-block-button__link has-background" href="https://www.gnome.org/donate/" style="border-radius:8px;background-color:#1a5fb4">Learn More</a></div>
+</div>
+
+	
+</div>
+
+</article>
+
+				
+			</div><!-- #content -->
+
+			
+		</div><!-- #primary -->
+
+		
+	</div><!-- #content-wrap -->
+
+	
+
+	</main><!-- #main -->
+
+	
+	
+	
+		
+<footer id="footer" class="site-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
+
+	
+	<div id="footer-inner" class="clr">
+
+		
+
+<div id="footer-widgets" class="oceanwp-row clr">
+
+	
+	<div class="footer-widgets-inner container">
+
+					<div class="footer-box span_1_of_4 col col-1">
+				<div id="text-5" class="footer-widget widget_text clr">			<div class="textwidget"><ul>
+<li><strong><a href="https://www.gnome.org/">The GNOME Project</a></strong></li>
+<li><a href="https://foundation.gnome.org/contact-us/">Contact Us</a></li>
+<li><a href="https://www.gnome.org/about/">About Us</a></li>
+<li><a href="https://www.gnome.org/get-involved/">Get Involved</a></li>
+<li><a href="https://www.gnome.org/donate">Support GNOME</a></li>
+<li><a href="https://shop.gnome.org/other-vendors/"> Merchandise</a></li>
+<li><a href="https://www.gnome.org/foundation/">The GNOME Foundation</a></li>
+<li><a href="https://wiki.gnome.org/Foundation/CodeOfConduct">Code of Conduct</a></li>
+<li><a href="https://www.gnome.org/privacy/">Privacy</a></li>
+</ul>
+</div>
+		</div>			</div><!-- .footer-one-box -->
+
+							<div class="footer-box span_1_of_4 col col-2">
+					<div id="text-6" class="footer-widget widget_text clr">			<div class="textwidget"><ul id="menu-footer" class="menu">
+<li id="menu-item-1047" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1047"><strong>Resources</strong></li>
+<li id="menu-item-1056" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1056"><a href="https://help.gnome.org/">Documentation</a></li>
+<li id="menu-item-1057" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1057"><a href="https://wiki.gnome.org/">Wiki</a></li>
+<li id="menu-item-1055" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1055"><a href="https://developer.gnome.org/">Developer Center</a></li>
+<li id="menu-item-1058" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1058"><a href="https://mail.gnome.org/mailman/listinfo">Mailing Lists</a></li>
+<li><a href="https://discourse.gnome.org">Forum</a></li>
+<li id="menu-item-1059" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1059"><a href="https://wiki.gnome.org/Community/GettingInTouch/IRC">IRC Channels</a></li>
+<li id="menu-item-1060" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1060"><a href="https://gitlab.gnome.org/">Bug Tracker</a></li>
+<li id="menu-item-1061" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1061"><a href="https://gitlab.gnome.org/">Development Code</a></li>
+</ul>
+</div>
+		</div>				</div><!-- .footer-one-box -->
+				
+							<div class="footer-box span_1_of_4 col col-3 ">
+					<div id="text-7" class="footer-widget widget_text clr">			<div class="textwidget"><ul id="menu-footer" class="menu">
+<li id="menu-item-1046" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1046"><strong><a href="https://foundation.gnome.org/news/">News</a></strong></li>
+<li id="menu-item-1064" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1064"><a href="http://release.gnome.org/43">Latest Release</a></li>
+<li><a href="https://thisweek.gnome.org">This Week in GNOME</a></li>
+<li><a href="https://events.gnome.org/">Events</a></li>
+<li><a href="https://planet.gnome.org/">Planet GNOME</a></li>
+</ul>
+<p>&nbsp;</p>
+<ul id="menu-footer" class="menu">
+<li><strong>Ecosystem</strong></li>
+<li><a href="https://apps.gnome.org">GNOME Apps</a></li>
+<li><a href="https://circle.gnome.org">GNOME Circle</a></li>
+</ul>
+</div>
+		</div>				</div><!-- .footer-one-box -->
+				
+							<div class="footer-box span_1_of_4 col col-4">
+					<div id="ocean_social-3" class="footer-widget widget-oceanwp-social social-widget clr">
+				<ul class="oceanwp-social-icons no-transition style-simple">
+					<li class="oceanwp-twitter"><a href="https://twitter.com/gnome" aria-label="Twitter"  target="_blank" rel="noopener noreferrer"><i class=" fab fa-twitter" aria-hidden="true" role="img"></i></a><span class="screen-reader-text">Opens in a new tab</span></li><li class="oceanwp-facebook"><a href="https://www.facebook.com/GNOME/" aria-label="Facebook"  target="_blank" rel="noopener noreferrer"><i class=" fab fa-facebook" aria-hidden="true" role="img"></i></a><span class="screen-reader-text">Opens in a new tab</span></li><li class="oceanwp-linkedin"><a href="https://www.linkedin.com/company/gnome-foundation" aria-label="LinkedIn"  target="_blank" rel="noopener noreferrer"><i class=" fab fa-linkedin" aria-hidden="true" role="img"></i></a><span class="screen-reader-text">Opens in a new tab</span></li><li class="oceanwp-youtube"><a href="https://www.youtube.com/user/GNOMEDesktop" aria-label="Youtube"  target="_blank" rel="noopener noreferrer"><i class=" fab fa-youtube" aria-hidden="true" role="img"></i></a><span class="screen-reader-text">Opens in a new tab</span></li><li class="oceanwp-rss"><a href="https://www.gnome.org/feed/" aria-label="RSS"  target="_blank" rel="noopener noreferrer"><i class=" fa fa-rss" aria-hidden="true" role="img"></i></a><span class="screen-reader-text">Opens in a new tab</span></li>				</ul>
+
+				
+			
+		
+			</div>				</div><!-- .footer-box -->
+				
+			
+	</div><!-- .container -->
+
+	
+</div><!-- #footer-widgets -->
+
+
+
+<div id="footer-bottom" class="clr no-footer-nav">
+
+	
+	<div id="footer-bottom-inner" class="container clr">
+
+		
+		
+			<div id="copyright" class="clr" role="contentinfo">
+				© The GNOME Project. </br>
+
+Hosted by Red Hat. Powered by WordPress and OceanWP.			</div><!-- #copyright -->
+
+			
+	</div><!-- #footer-bottom-inner -->
+
+	
+</div><!-- #footer-bottom -->
+
+
+	</div><!-- #footer-inner -->
+
+	
+</footer><!-- #footer -->
+
+	
+	
+</div><!-- #wrap -->
+
+
+</div><!-- #outer-wrap -->
+
+
+
+<a aria-label="Scroll to the top of the page" href="#" id="scroll-top" class="scroll-top-right"><i class=" fa fa-angle-up" aria-hidden="true" role="img"></i></a>
+
+
+
+<div id="sidr-close">
+	<a href="javascript:void(0)" class="toggle-sidr-close" aria-label="Close mobile menu">
+		<i class="icon icon-close" aria-hidden="true"></i><span class="close-text">Close Menu</span>
+	</a>
+</div>
+
+	
+	
+<div id="mobile-menu-search" class="clr">
+	<form aria-label="Search this website" method="get" action="https://www.gnome.org/" class="mobile-searchform">
+		<input aria-label="Insert search query" value="" class="field" id="ocean-mobile-search-6" type="search" name="s" autocomplete="off" placeholder="Search" />
+		<button aria-label="Submit search" type="submit" class="searchform-submit">
+			<i class=" icon-magnifier" aria-hidden="true" role="img"></i>		</button>
+					</form>
+</div><!-- .mobile-menu-search -->
+
+
+<link rel='stylesheet' id='lgx-logo-slider-owl-css' href='https://www.gnome.org/wp-content/plugins/logo-slider-wp/public/assets/libs/owl/assets/owl.carousel.min.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='lgx-logo-slider-owltheme-css' href='https://www.gnome.org/wp-content/plugins/logo-slider-wp/public/assets/libs/owl/assets/owl.theme.default.min.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='lgx-logo-slider-style-dep-css' href='https://www.gnome.org/wp-content/plugins/logo-slider-wp/public/assets/css/logosliderwppublic-dep.min.css?ver=1.0.0' media='all' />
+<style id='core-block-supports-inline-css'>
+.wp-block-buttons.wp-container-2,.wp-block-buttons.wp-container-4,.wp-block-buttons.wp-container-5{justify-content:center;}
+</style>
+<script src='https://www.gnome.org/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script id='oceanwp-main-js-extra'>
+var oceanwpLocalize = {"nonce":"553cf2145f","isRTL":"","menuSearchStyle":"drop_down","mobileMenuSearchStyle":"disabled","sidrSource":"#sidr-close, #site-navigation, #mobile-menu-search","sidrDisplace":"1","sidrSide":"left","sidrDropdownTarget":"link","verticalHeaderTarget":"link","customSelects":".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select","ajax_url":"https:\/\/www.gnome.org\/wp-admin\/admin-ajax.php"};
+</script>
+<script src='https://www.gnome.org/wp-content/themes/oceanwp/assets/js/theme.min.js?ver=3.3.6' id='oceanwp-main-js'></script>
+<script src='https://www.gnome.org/wp-content/themes/oceanwp/assets/js/vendors/sidr.js?ver=3.3.6' id='ow-sidr-js'></script>
+<script src='https://www.gnome.org/wp-content/themes/oceanwp/assets/js/sidebar-mobile-menu.min.js?ver=3.3.6' id='oceanwp-sidebar-mobile-menu-js'></script>
+<script src='https://www.gnome.org/wp-content/themes/oceanwp/assets/js/drop-down-search.min.js?ver=3.3.6' id='oceanwp-drop-down-search-js'></script>
+<script src='https://www.gnome.org/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js?ver=3.3.6' id='ow-magnific-popup-js'></script>
+<script src='https://www.gnome.org/wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js?ver=3.3.6' id='oceanwp-lightbox-js'></script>
+<script src='https://www.gnome.org/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js?ver=3.3.6' id='ow-flickity-js'></script>
+<script src='https://www.gnome.org/wp-content/themes/oceanwp/assets/js/ow-slider.min.js?ver=3.3.6' id='oceanwp-slider-js'></script>
+<script src='https://www.gnome.org/wp-content/themes/oceanwp/assets/js/scroll-effect.min.js?ver=3.3.6' id='oceanwp-scroll-effect-js'></script>
+<script src='https://www.gnome.org/wp-content/themes/oceanwp/assets/js/scroll-top.min.js?ver=3.3.6' id='oceanwp-scroll-top-js'></script>
+<script src='https://www.gnome.org/wp-content/themes/oceanwp/assets/js/select.min.js?ver=3.3.6' id='oceanwp-select-js'></script>
+<script src='https://www.gnome.org/wp-content/plugins/logo-slider-wp/public/assets/libs/owl/owl.carousel.js?ver=1.0.0' id='lgxlogoowljs-js'></script>
+<script id='lgx-logo-slider-script-dep-js-extra'>
+var logosliderwp = {"owl_navigationTextL":"https:\/\/www.gnome.org\/wp-content\/plugins\/logo-slider-wp\/public\/assets\/img\/prev.png","owl_navigationTextR":"https:\/\/www.gnome.org\/wp-content\/plugins\/logo-slider-wp\/public\/assets\/img\/next.png"};
+</script>
+<script src='https://www.gnome.org/wp-content/plugins/logo-slider-wp/public/assets/js/logosliderwppublic-dep.js?ver=1.0.0' id='lgx-logo-slider-script-dep-js'></script>
+</body>
+</html>
+<!--
+Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
+
+Retrieved 10146 objects (402 KB) from Redis using PhpRedis (v5.3.7).
+-->
+<!-- Cache Enabler by KeyCDN @ Tue, 20 Dec 2022 09:18:12 GMT (https-index.html) -->
