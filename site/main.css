@@ -1,6 +1,6 @@
 @font-face {
     font-family: Lobster;
-    src: url(Lobster-Regular.ttf);
+    src: url(res/Lobster-Regular.ttf);
 }
 
 * {
@@ -90,23 +90,48 @@
 #shape {
     height: calc(10vh + 3px);
     width: 100vw;
-    background-color: var(--cream);
+    background-color: black;
     clip-path: polygon(0% calc(100% - 3px), 0% 100%, 100% 100%, 100% calc(100% - 3px), 50% 0%);
     position: absolute;
     bottom: -1px;
+}
+
+#shape::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    clip-path: inherit;
+    background-color: var(--cream);
 }
 
 #title {
     font-size: 4em;
     font-family: Lobster;
     text-align: center;
-    background-color: var(--cream);
+    background-color: black;
     color: black;
     padding-top: 52px; /* TODO: make this less worsely */
     position: sticky;
     top: 0px;
     padding-bottom: 10vh;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% calc(100% - 10vh), 0% 100%);
+}
+
+#title::after {
+    display: inline-block;
+    content: "";
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    z-index: -1;
+    background-color: var(--cream);
+    clip-path: inherit;
 }
 
 div#nav {
