@@ -274,6 +274,17 @@ small {
     #main > div.bottom > img {
         max-width: 90vw;
     }
+
+    #culture > div {
+        flex-direction: column !important;
+        justify-content: stretch;
+    }
+    
+    #culture > div > img {
+        width: 100% !important;
+        box-sizing: border-box;
+        padding: 30px;
+    }
 }
 
 #plug {
@@ -382,4 +393,25 @@ p#liblurb {
     padding-bottom: 5% !important;
     background-image: linear-gradient(white, rgb(255, 255, 255, 0.7), white);
     background-color: transparent;
+}
+
+#culture > div {
+    display: flex;
+}
+
+#culture > div:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+#culture > div > * {
+    width: 100%;
+}
+
+#culture > div > img {
+    width: 50vw;
+}
+
+#culture > div > p {
+    padding: 10%;
+    box-sizing: border-box;
 }
