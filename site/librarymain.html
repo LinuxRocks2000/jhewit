@@ -3,12 +3,12 @@
 <div id="library">
     <div id="libpages">
         [f library libraryEntry]
-            <a href="/library/[^libraryEntry.filename]">
+            <a href="[^baseurl]/library/[^libraryEntry.filename]">
                 <span>[^libraryEntry.libraryTitle]</span>
                 <p>
                     [^libraryEntry.libraryBlurb]
                 </p>
-                <span><img src="/res/librarrow.svg"></span>
+                <span><img src="[^baseurl]/res/librarrow.svg"></span>
             </a>
         [/]
     </div>

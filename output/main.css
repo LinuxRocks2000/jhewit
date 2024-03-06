@@ -40,6 +40,7 @@
     width: 100vw;
     height: 100vh;
     overflow: auto;
+    overflow-x: hidden;
 }
 
 #main > div, #main > p {
@@ -76,8 +77,11 @@
 
 #main > div.bottom > * {
     flex-basis: 100%;
-    justify-self: start;
     width: 100%;
+}
+
+#main > div.bottom > img {
+    max-width: 40vw;
 }
 
 #main > .top {
@@ -265,6 +269,10 @@ small {
         grid-template-columns: 100% !important;
         padding-left: 0px !important;
         max-width: unset !important;
+    }
+
+    #main > div.bottom > img {
+        max-width: 90vw;
     }
 }
 
