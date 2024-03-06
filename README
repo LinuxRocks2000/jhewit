@@ -1,6 +1,12 @@
+The Avraham Society is a Jewish Humanist organization in the MENA region.
+This is their website code.
+
 This is a Sitix (https://github.com/LinuxRocks2000/sitix-rewrite) project. To
 build it, run `sitix site` in the root directory. The output directory will
 contain the built site. DO NOT RUN `sitix build site -o .`! I learned the hard
 way that recovering the files sitix will delete IS IMPOSSIBLE! And it'll even
 remove all your git stuff, which I was rather mad about. Yes, I wrote sitix and
 should understand all of its implications. What, you *don't* get tired?
+The avrahamsociety directory contains the old website code which was *generated*
+by Jekyll; I (cough, erm) made a mistake and erased most of the Jekyll source.
+My templating pattern was simple so it's been easy to repair, luckily.

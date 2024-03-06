@@ -1,5 +1,6 @@
 [?]
-[=baseurl http://localhost:8080]
+[#config.stx]
+[#links.html]
 <!DOCTYPE html>
 
 
@@ -48,18 +49,12 @@
         <div id="bg"></div>
         <div id="main">
             <div id="banner">
-                <a href="[^baseurl]"><img src="res/Avraham_Society.png"></a>
+                <a href="[^baseurl]"><img src="[^baseurl]/res/Avraham_Society.png"></a>
                 <div id="social">Social media, recent updates, etc</div>
                 <input id="navExpander" style="display: none;" type="checkbox" checked>
                 <div id="nav">
                     <label for="navExpander" id="nav-expand"></label>
-                    <a onclick="localStorage.refered = true" href="[^baseurl]/">Home</a>
-                    <a onclick="localStorage.refered = true" href="[^baseurl]/intro-to-judaism">Intro to Judaism</a>
-                    <a onclick="localStorage.refered = true" href="[^baseurl]/jewish-history-culture">Jewish History and Culture</a>
-                    <a onclick="localStorage.refered = true" href="[^baseurl]/landmarks">Jewish Landmarks</a>
-                    <a onclick="localStorage.refered = true" href="[^baseurl]/humanism">Humanism</a>
-                    <a onclick="localStorage.refered = true" href="[^baseurl]/membership">Membership</a>
-                    <a onclick="localStorage.refered = true" href="[^baseurl]/library">Library</a>
+                    [^links]
                 </div>
             </div>
             <div class="top">

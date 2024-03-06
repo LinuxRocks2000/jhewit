@@ -365,3 +365,13 @@ h1 {
 #libpages {
     flex: 1 1 min-content;
 }
+
+p#liblurb {
+    font-size: 1.2em;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    background-image: linear-gradient(white, rgb(255, 255, 255, 0.7), white);
+    background-color: transparent;
+}
