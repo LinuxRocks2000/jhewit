@@ -3,11 +3,11 @@
     "short_name": "AvrahamSociety",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#ff0000",
+    "background_color": "#000000",
     "description": "A Jewish Humanist organization serving the Middle East and North Africa",
     "icons": [
         {
-            "src": "res/Avraham_Society_icon.png",
+            "src": "res/logo-gradiented.png",
             "sizes": "any"
         }
     ]

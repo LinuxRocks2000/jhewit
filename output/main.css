@@ -24,7 +24,7 @@
     overflow: hidden;
     background-image: url(res/Avraham_Society.png),
     /*linear-gradient(90deg, var(--kuwaitgreen), var(--cream), var(--kuwaitred), black)*/
-    linear-gradient(45deg, red, rgb(0, 255, 0, 0), green),
+    /*linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), */linear-gradient(45deg, red, rgb(0, 255, 0, 0), green),
     linear-gradient(135deg, black, rgb(255, 255, 255, 0), white);
     background-size: contain;
     background-position: 50% 65%;
