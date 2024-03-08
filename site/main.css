@@ -13,6 +13,10 @@
     --kuwaitred: #cf0821;
 }
 
+img {
+    width: 100%;
+}
+
 #bg {
     position: absolute;
     z-index: -1000;
@@ -26,7 +30,7 @@
     /*linear-gradient(90deg, var(--kuwaitgreen), var(--cream), var(--kuwaitred), black)*/
     /*linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), */linear-gradient(45deg, red, rgb(0, 255, 0, 0), green),
     linear-gradient(135deg, black, rgb(255, 255, 255, 0), white);
-    background-size: contain;
+    background-size: contain, cover;
     background-position: 50% 65%;
     background-repeat: no-repeat;
     /*background-color: var(--kuwaitgreen);/*white;*/ /*var(--deepcream);*/ /*#993231;*/ /* var(--cream); */
@@ -203,19 +207,23 @@ small {
 }
 
 @media (max-width: 1000px) {
+    #bg {
+        background-size: 120%, cover;
+    }
+
     #main > p {
         padding-left: 10px;
         padding-right: 10px;
     }
 
     #shape {
-        height: 20px;
+        height: 40px;
     }
 
     #title {
         font-size: 2em;
-        padding-bottom: 20px;
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% calc(100% - 19px), 0% 100%);
+        padding-bottom: 40px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% calc(100% - 37px), 0% 100%);
     }
 
 
@@ -280,7 +288,7 @@ small {
         justify-content: stretch;
     }
     
-    #culture > div > img {
+    #culture > div > div {
         width: 100% !important;
         box-sizing: border-box;
         padding: 30px;
@@ -336,6 +344,10 @@ h1 {
 
 #libpages > a > span:last-child {
     position: relative;
+}
+
+#libpages > a > span:last-child > img {
+    width: auto;
 }
 
 #libpages > a > span:last-child::before {
@@ -407,8 +419,12 @@ p#liblurb {
     width: 100%;
 }
 
-#culture > div > img {
-    width: 50vw;
+#culture > div > div {
+    min-width: 50vw;
+    box-sizing: border-box;
+    border: 10px solid black;
+    padding: 50px;
+    background-color: #888888;
 }
 
 #culture > div > p {

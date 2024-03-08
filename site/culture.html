@@ -3,7 +3,14 @@
 <div id="culture">
     [f culturalstuff cultureThing]
     <div>
-        <img src="[^cultureThing.img]" />
+        <div>
+            [i exists cultureThing.img]
+            <img src="[^cultureThing.img]" />
+            [/i]
+            [i exists cultureThing.videoEmbed]
+            [^cultureThing.videoEmbed]
+            [/i]
+        </div>
         <p>
             [^cultureThing.text]
         </p>
