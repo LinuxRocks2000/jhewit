@@ -1,13 +1,13 @@
-[!]
+[!][@on minify]
 [=content-]
 <div id="culture">
     [f culturalstuff cultureThing]
     <div>
         <div>
-            [i exists cultureThing.img]
+            [i cultureThing.img]
             <img src="[^cultureThing.img]" />
             [/i]
-            [i exists cultureThing.videoEmbed]
+            [i cultureThing.videoEmbed]
             [^cultureThing.videoEmbed]
             [/i]
         </div>
@@ -18,5 +18,5 @@
     [/]
 </div>
 [/]
-[=title Culture]
+[=title "Culture"]
 [#templates/default.html]
