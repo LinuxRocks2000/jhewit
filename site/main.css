@@ -11,6 +11,13 @@
     --cream: rgb(255, 254, 250);
     --kuwaitgreen: #007b3a;
     --kuwaitred: #cf0821;
+    --sandlight: #ddc68c;
+    --seadark: #6090a4;
+    --sealight: #71a3b8;
+    --scrollight: #8e3b37;
+    --humanbody: #434343;
+    --handledark: #7a6034;
+    --scrollpaperlight: #d5c6ad;
 }
 
 img {
@@ -48,7 +55,7 @@ img {
 }
 
 #main > div, #main > p {
-    background-color: var(--cream);
+    background-color: var(--scrollpaperlight);
 }
 
 #main > p:first-of-type {
@@ -66,17 +73,17 @@ img {
 #main > div.space {
     background-color: transparent;
     height: clamp(150px, 30vh, 500px);
-    border-bottom: 50px solid var(--cream);
+    border-bottom: 50px solid var(--sealight);
 }
 
 #main > div.bottom {
-    background-color: #007b3a; /* kuwait green */
+    background-color: var(--seadark);
     display: flex;
     padding: 50px;
     width: 100vw;
     box-sizing: border-box;
     align-items: center;
-    color: white;
+    color: black;
 }
 
 #main > div.bottom > * {
@@ -98,7 +105,7 @@ img {
 #shape {
     height: calc(10vh + 3px);
     width: 100vw;
-    background-color: black;
+    background-color: var(--sealight);
     clip-path: polygon(0% calc(100% - 3px), 0% 100%, 100% 100%, 100% calc(100% - 3px), 50% 0%);
     position: absolute;
     bottom: -1px;
@@ -113,14 +120,14 @@ img {
     top: 3px;
     left: 0px;
     clip-path: inherit;
-    background-color: var(--cream);
+    background-color: var(--scrollpaperlight);
 }
 
 #title {
     font-size: 4em;
     font-family: Lobster;
     text-align: center;
-    background-color: black;
+    background-color: var(--handledark);
     color: black;
     padding-top: 52px; /* TODO: make this less worsely */
     position: sticky;
@@ -138,7 +145,7 @@ img {
     top: -3px;
     left: 0px;
     z-index: -1;
-    background-color: var(--cream);
+    background-color: var(--sandlight);
     clip-path: inherit;
 }
 
@@ -168,11 +175,11 @@ div#nav {
 }
 
 div#banner {
-    background-color: white;
-    color: black;
+    background-color: var(--humanbody);
+    color: white;
     /*--colorslant-point: clamp(20px, 10vw, 200px);
     background-image: linear-gradient(90deg, var(--kuwaitred) 0px, var(--kuwaitred) var(--colorslant-point), white var(--colorslant-point), white calc(100% - var(--colorslant-point)), var(--kuwaitred) calc(100% - var(--colorslant-point)));*/
-    border: 4px solid var(--kuwaitred);
+    border-bottom: 4px solid var(--scrollight);
     border-top: none;
     /*box-shadow: 0px 0px 5px var(--kuwaitred);*/
     /*box-shadow: 0px 0px 5px black;*/
@@ -188,6 +195,10 @@ div#banner {
 #banner > a {
     height: 2em;
     float: left;
+}
+
+#nav > a {
+    color: white;
 }
 
 #banner > a > img {
@@ -296,7 +307,7 @@ small {
 }
 
 #plug {
-    background-color: black !important;
+    background-color: var(--scrollight) !important;
     color: white;
     text-align: center;
     font-size: 0.75em;
