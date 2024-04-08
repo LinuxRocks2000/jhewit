@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Affirming Diversity
+title: Jewish Diversity
 ---
 
 We celebrate Judaism’s cultural diversity and acknowledge that Jews come from many cultures.
