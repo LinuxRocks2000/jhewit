@@ -6,7 +6,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "Anton";
     --deepcream: rgb(247, 233, 213);
     --cream: rgb(255, 254, 250);
     --kuwaitgreen: #007b3a;
@@ -55,7 +55,7 @@ img {
 }
 
 #main > div, #main > p {
-    background-color: var(--scrollpaperlight);
+    background-color: var(--cream);
 }
 
 #main > p:first-of-type {
@@ -64,16 +64,16 @@ img {
 
 #main > p {
     padding-bottom: 50px;
-    padding-left: 20vw;
-    padding-right: 30vw;
+    padding-left: 25vw;
+    padding-right: 25vw;
     line-height: 2em;
-    font-family: Arial;
+    font-family: "Anton";
 }
 
 #main > div.space {
     background-color: transparent;
     height: clamp(150px, 30vh, 500px);
-    border-bottom: 50px solid var(--sealight);
+    border-bottom: 50px solid var(--cream);
 }
 
 #main > div.bottom {
@@ -105,7 +105,7 @@ img {
 #shape {
     height: calc(10vh + 3px);
     width: 100vw;
-    background-color: var(--sealight);
+    background-color: var(--kuwaitred);
     clip-path: polygon(0% calc(100% - 3px), 0% 100%, 100% 100%, 100% calc(100% - 3px), 50% 0%);
     position: absolute;
     bottom: -1px;
@@ -120,14 +120,14 @@ img {
     top: 3px;
     left: 0px;
     clip-path: inherit;
-    background-color: var(--scrollpaperlight);
+    background-color: var(--cream);
 }
 
 #title {
     font-size: 4em;
     font-family: Lobster;
     text-align: center;
-    background-color: var(--handledark);
+    background-color: var(--kuwaitred);
     color: black;
     padding-top: 52px; /* TODO: make this less worsely */
     position: sticky;
@@ -145,7 +145,7 @@ img {
     top: -3px;
     left: 0px;
     z-index: -1;
-    background-color: var(--sandlight);
+    background-color: var(--cream);
     clip-path: inherit;
 }
 
@@ -175,8 +175,8 @@ div#nav {
 }
 
 div#banner {
-    background-color: var(--humanbody);
-    color: white;
+    background-color: var(--scrollpaperlight);
+    color: black;
     /*--colorslant-point: clamp(20px, 10vw, 200px);
     background-image: linear-gradient(90deg, var(--kuwaitred) 0px, var(--kuwaitred) var(--colorslant-point), white var(--colorslant-point), white calc(100% - var(--colorslant-point)), var(--kuwaitred) calc(100% - var(--colorslant-point)));*/
     border-bottom: 4px solid var(--scrollight);
@@ -198,7 +198,7 @@ div#banner {
 }
 
 #nav > a {
-    color: white;
+    color: black;
 }
 
 #banner > a > img {
