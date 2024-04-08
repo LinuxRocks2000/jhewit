@@ -11,7 +11,7 @@ Our focus is on Kuwaiti Jews and their heritage namely in Kuwait and abroad and 
 
 We do not privilege one tradition over another rather we connect with the heritage of our lands and seek to accommodate a plurality of traditions in our members to connect with the wider Jewish world.
 
-Kuwait has a special place in our hearts given that our initiative was based on it and on serving its Jewish communities
+Kuwait has a special place in our hearts given that our initiative was based on serving its Jewish communities
 
 However as humanists our vision is worldwide and our concern reflects many cultures both Jewish and non-Jewish.
 
