@@ -57,9 +57,10 @@ var chocklyisrael = [ // 54 Torah sections, updates every sunday (or whatever da
     "Zot Haberakha"
 ];
 const oneDay = 24 * 60 * 60 * 1000; // hours * minutes * seconds * milliseconds
-const tripDay = 0; // sunday
+const tripDay = 6; // saturday
 
 var startDate = new Date("2024-4-8");
+startDate.setHours(12); // midday
 var now = new Date();
 var dif = now - startDate;
 var difDays = Math.round(dif / oneDay);
@@ -70,5 +71,7 @@ var tripsSince = Math.floor(difDays / 7);
 if (now.getDay() == tripDay) {
     tripsSince++;
 }
+
+tripsSince += 26; // Tazria
 
 document.getElementById("torahsection").innerText = chocklyisrael[tripsSince];
