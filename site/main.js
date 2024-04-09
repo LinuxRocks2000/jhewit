@@ -11,3 +11,11 @@ if (localStorage.refered) {
         "behavior": "smooth"
     });
 }
+
+Array.from(document.getElementsByClassName("ytframe")).forEach(frame => { // resizes youtube videos to fit their containers
+    var w1 = frame.getBoundingClientRect().width;
+    frame.width = "100%";
+    var w2 = frame.getBoundingClientRect().width;
+    frame.width = w2 + "px";
+    frame.height = frame.getBoundingClientRect().height * w2 / w1;
+});

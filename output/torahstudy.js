@@ -1,6 +1,6 @@
 // Manages the Torah Study section of the Library
 
-var chocklyisrael = [ // 54 Torah sections, updates every sunday (or whatever day he wants really)
+const chocklyisrael = [ // 54 Torah sections, updates every sunday (or whatever day he wants really)
     "Bereishit",
     "Noach",
     "Lech Lecha",
@@ -56,6 +56,43 @@ var chocklyisrael = [ // 54 Torah sections, updates every sunday (or whatever da
     "Haazinu",
     "Zot Haberakha"
 ];
+
+const tomerdevorah = [
+    "I & II",
+    "III",
+    "IV",
+    "V & VI",
+    "VII",
+    "VIII",
+    "IX & X"
+];
+
+function roman(num) { // roman numeral converter for numbers <10 (used for Bustan Al-Uqul)
+    if (num < 4) {
+        var ret = "";
+        for (var i = 0; i < num; i++) {
+            ret += 'I';
+        }
+        return ret;
+    }
+    else if (num == 4) {
+        return "IV";
+    }
+    else if (num >= 5 && num <= 8) {
+        var ret = "V";
+        for (var i = 0; i < num - 5; i++) {
+            ret += 'I';
+        }
+        return ret;
+    }
+    else if (num == 9) {
+        return "IX";
+    }
+    else {
+        return "X";
+    }
+} 
+
 const oneDay = 24 * 60 * 60 * 1000; // hours * minutes * seconds * milliseconds
 const tripDay = 6; // saturday
 
@@ -74,4 +111,8 @@ if (now.getDay() == tripDay) {
 
 tripsSince += 26; // Tazria
 
+var daysSinceSat = (now.getDay() + 1 + (now.getHours() > 12 ? 1 : 0)) % 7;
+
 document.getElementById("torahsection").innerText = chocklyisrael[tripsSince];
+document.getElementById("bustanaluqul").innerText = roman(daysSinceSat);
+document.getElementById("tomerdevorah").innerText = tomerdevorah[daysSinceSat];
