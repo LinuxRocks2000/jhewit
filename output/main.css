@@ -54,7 +54,7 @@ img {
     overflow-x: hidden;
 }
 
-#main > div, #main > p {
+#main > div, #main > p, #main > ol, #main > ul, #main > h1, #main > h2 {
     background-color: var(--scrollpaperlight);
 }
 
@@ -62,7 +62,11 @@ img {
     padding-top: 50px;
 }
 
-#main > p {
+#main > h1, #main > h2 {
+    text-align: center;
+}
+
+#main > p, #main > ol, #main > ul, #main > h1, #main > h2 {
     padding-bottom: 50px;
     padding-left: 25vw;
     padding-right: 25vw;
@@ -192,10 +196,13 @@ div#banner {
     top: 0px;
     box-sizing: border-box;
     z-index: 2;
+    min-height: 54px;
 }
 
 #banner > a {
-    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 #nav > a {
@@ -261,6 +268,10 @@ small {
         flex-direction: column;
     }
 
+    #banner {
+        position: relative;
+    }
+
     #nav > #nav-expand {
         display: initial;
     }
@@ -278,11 +289,11 @@ small {
     }
 
     #navExpander + #nav > #nav-expand::before {
-        content: '↑';
+        content: '▲';
     }
 
     #navExpander:checked + #nav > #nav-expand::before {
-        content: '↓';
+        content: '▼';
     }
 
     #library {
@@ -426,12 +437,7 @@ h1 {
 
 p#liblurb {
     font-size: 1.2em;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 5% !important;
-    padding-bottom: 5% !important;
-    background-image: linear-gradient(white, rgb(255, 255, 255, 0.7), white);
-    background-color: transparent;
+    text-align: center;
 }
 
 #culture > div {
@@ -465,6 +471,11 @@ p#liblurb {
     padding: 10px;
     display: inline-flex;
     align-items: center;
+
+    /* Safari fixes, hopefully */
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    justify-content: center;
 }
 
 .bottom > div > p {
@@ -493,4 +504,8 @@ p#liblurb {
 
 .social > a:hover {
     color: var(--kuwaitred);
+}
+
+#dates {
+    font-size: 0.75em;
 }

@@ -113,6 +113,6 @@ tripsSince += 26; // Tazria
 
 var daysSinceSat = (now.getDay() + 1 + (now.getHours() > 12 ? 1 : 0)) % 7;
 
-document.getElementById("torahsection").innerText = chocklyisrael[tripsSince];
+//document.getElementById("torahsection").innerText = chocklyisrael[tripsSince];
 document.getElementById("bustanaluqul").innerText = roman(daysSinceSat);
 document.getElementById("tomerdevorah").innerText = tomerdevorah[daysSinceSat];

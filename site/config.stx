@@ -1,5 +1,5 @@
 [?][@on minify]
-[=baseurl "http://localhost:8080"]
+[=baseurl "https://avrahamsociety.org/"]
 [i conf/devWorld]
     [=baseurl "https://swaous.asuscomm.com/dev/avrahamsociety"]
 [/]

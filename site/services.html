@@ -1,12 +1,9 @@
 [!][@on minify]
 [=content-]
-<p>
-    Some information on our services. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quis doloremque optio assumenda minus iure ut voluptatum deleniti quam similique, perspiciatis explicabo ratione dolorum soluta quibusdam sunt! Delectus, unde doloremque.
-</p>
 <div class="centered-container">
     <div style="display: inline-flex;flex-direction: column;align-items: stretch;">
         [f servicepages page]
-            <a class="servicelink" href="[^baseurl]/[^page.filename]">
+            <a class="servicelink">
                 <div class="serviceitem">
                     <span>[^page.title]</span>
                     <p>
@@ -30,6 +27,7 @@
         text-align: left;
         box-shadow: 6px 6px 2px red;
         transition: box-shadow 0.5s;
+        max-width: 1000px;
     }
     .serviceitem > span {
         font-size: 1.5em;
@@ -43,5 +41,5 @@
     }
 </style>
 [/]
-[=title Services]
+[=title "Services"]
 [#templates/default.html]
