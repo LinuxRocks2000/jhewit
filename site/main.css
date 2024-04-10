@@ -92,7 +92,9 @@ img {
 }
 
 #main > div.bottom > img {
-    max-width: 40vw;
+    max-width: 50vw;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #main > .top {
@@ -129,10 +131,10 @@ img {
     text-align: center;
     background-color: var(--kuwaitred);
     color: black;
-    padding-top: 52px; /* todo: make this less terrible */
+    padding-top: 62px; /* todo: make this less terrible */
     position: sticky;
     top: 0px;
-    padding-bottom: 10vh;
+    padding-bottom: calc(20vh + 10px);
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% calc(100% - 10vh), 0% 100%);
 }
 
@@ -233,7 +235,7 @@ small {
 
     #title {
         font-size: 2em;
-        padding-bottom: 40px;
+        padding-bottom: calc(40px + 40px);
         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% calc(100% - 37px), 0% 100%);
     }
 
@@ -248,6 +250,11 @@ small {
 
     .bottom > img {
         width: 100%;
+    }
+
+    .bottom > * {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     #nav {
@@ -306,7 +313,13 @@ small {
     }
 
     #title {
-        padding-top: calc(1.5em + 10px);
+        padding-top: calc(1.5em + 20px);
+    }
+
+    .bottom > div > p {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        font-size: 1.2em !important;
     }
 }
 
@@ -444,4 +457,40 @@ p#liblurb {
 #culture > div > p {
     padding: 10%;
     box-sizing: border-box;
+}
+
+.social {
+    background-color: var(--cream);
+    border-radius: 100vw;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.bottom > div > p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.centered-container {
+    text-align: center;
+}
+
+.social > a > svg, .social > a > img {
+    height: 2em;
+}
+
+.social > a {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.social > a:hover {
+    color: var(--kuwaitred);
 }

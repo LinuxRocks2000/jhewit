@@ -1,0 +1,47 @@
+[!][@on minify]
+[=content-]
+<p>
+    Some information on our services. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quis doloremque optio assumenda minus iure ut voluptatum deleniti quam similique, perspiciatis explicabo ratione dolorum soluta quibusdam sunt! Delectus, unde doloremque.
+</p>
+<div class="centered-container">
+    <div style="display: inline-flex;flex-direction: column;align-items: stretch;">
+        [f servicepages page]
+            <a class="servicelink" href="[^baseurl]/[^page.filename]">
+                <div class="serviceitem">
+                    <span>[^page.title]</span>
+                    <p>
+                        [^page.quickdesc]
+                    </p>
+                </div>
+            </a>
+        [/]
+    </div>
+</div>
+<style>
+    .servicelink {
+        text-decoration: none;
+        color: black;
+    }
+    .serviceitem {
+        background-color: white;
+        border-radius: 20px 0px 20px 0px;
+        padding: 20px;
+        margin: 20px;
+        text-align: left;
+        box-shadow: 6px 6px 2px red;
+        transition: box-shadow 0.5s;
+    }
+    .serviceitem > span {
+        font-size: 1.5em;
+    }
+    .serviceitem > p {
+        border-left: 4px solid green;
+        padding: 10px;
+    }
+    .serviceitem:hover {
+        box-shadow: 3px 3px 0px red;
+    }
+</style>
+[/]
+[=title Services]
+[#templates/default.html]

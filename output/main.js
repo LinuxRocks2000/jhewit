@@ -19,3 +19,6 @@ Array.from(document.getElementsByClassName("ytframe")).forEach(frame => { // res
     frame.width = w2 + "px";
     frame.height = frame.getBoundingClientRect().height * w2 / w1;
 });
+
+document.getElementById("gregorian").innerText = new Date().toLocaleDateString('en-us', { weekday: "long", year: "numeric", month: "long", day: "numeric" });
+document.getElementById("hebrew").innerText = new Date().toLocaleDateString('en-u-ca-hebrew', { weekday: "long", year: "numeric", month: "long", day: "numeric" });
