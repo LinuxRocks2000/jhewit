@@ -1,0 +1,33 @@
+on:
+  push:
+    branches: [ rewrite ]
+  pull_request:
+    branches: [ rewrite ]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: LinuxRocks2000/sitix-rewrite
+          ref: rewrite
+          path: sitix-rewrite
+      - uses: actions/checkout@v2
+        with:
+          path: sitix-ghp-test
+      - name: Build website
+        run: |
+             cd sitix-ghp-test
+             git checkout gh-pages
+             ../sitix-rewrite/bin/sitix-ubuntu site -o gh-pages
+             mv gh-pages ..
+             rm -rf site
+             mv ../gh-pages/* .
+             git config --global user.name Robot
+             git config --global user.email notan@emailaddr.ess
+             git add .
+             git commit -am "automated build"
+             git branch
+             git push --force origin rewrite:gh-pages 
