@@ -21,7 +21,6 @@ jobs:
       - name: Build website
         run: |
              cd jhewit
-             git checkout gh-pages
              ../sitix-rewrite/bin/sitix-ubuntu site -o gh-pages
              mv gh-pages ..
              rm -rf site
