@@ -2,8 +2,25 @@
 [=content-]
 <div id="library">
     <div id="libpages">
-        <a href="[^baseurl]/library/aentry1.html"> <span>Jews</span> <p> Reminders for Jews </p> <span><img src="[^baseurl]/res/librarrow.svg"></span> </a> <a href="[^baseurl]/library/aentry2.html"> <span>Non-Jews</span> <p> Reminders for Non-Jews
- </p> <span><img src="[^baseurl]/res/librarrow.svg"></span> </a>
+        [=order-]
+            [=+ "Jews"]
+            [=+ "Non-Jews"]
+        [/]
+        [f order o]
+            [f library libPage]
+                [i libPage.libraryTitle o equals]
+                    <a href="[^baseurl]/library/aentry1.html">
+                        <span>
+                            [^libPage.libraryTitle]
+                        </span>
+                        <p>
+                            [^libPage.libraryBlurb]
+                        </p>
+                        <span><img src="[^baseurl]/res/librarrow.svg"></span>
+                    </a>
+                [/]
+            [/]
+        [/]
     </div>
     <div id="study">
         <div id="study-inner">

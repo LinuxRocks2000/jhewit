@@ -1,20 +1,31 @@
 [!][@on minify]
 [=content-]
 <div id="culture">
-    [f culturalstuff cultureThing]
-    <div>
-        <div>
-            [i cultureThing.img]
-            <img src="[^cultureThing.img]" />
-            [/i]
-            [i cultureThing.videoEmbed]
-            [^cultureThing.videoEmbed]
-            [/i]
-        </div>
-        <p>
-            [^cultureThing.text]
-        </p>
-    </div>
+    [=order-]
+        [=+ "daoudandsaleh"]
+        [=+ "video1"]
+        [=+ "video2"]
+        [=+ "video3"]
+        [=+ "video4"]
+    [/]
+    [f order o]
+        [f culturalstuff cultureThing]
+            [i o cultureThing.filename strip_fname equals]
+                <div>
+                    <div>
+                        [i cultureThing.img]
+                        <img src="[^cultureThing.img]" />
+                        [/i]
+                        [i cultureThing.videoEmbed]
+                        [^cultureThing.videoEmbed]
+                        [/i]
+                    </div>
+                    <p>
+                        [^cultureThing.text]
+                    </p>
+                </div>
+            [/]
+        [/]
     [/]
 </div>
 [/]
