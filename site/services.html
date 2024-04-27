@@ -10,7 +10,7 @@
         [f order i]
             [f servicepages service]
                 [i service.title i equals]
-                    <a class="servicelink">
+                    <a class="servicelink" [i service.link] href="[^service.link]"[/] >
                         <div class="serviceitem">
                             <span>[^service.title]</span>
                             <p>
