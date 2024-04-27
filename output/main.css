@@ -332,6 +332,20 @@ small {
         margin-right: 0px !important;
         font-size: 1.2em !important;
     }
+
+    .affiliatesgrid {
+        display: inline-grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    #thatoneproblem {
+        grid-column: 1 !important;
+        background-color: var(--cream) !important;
+    }
+
+    #thatoneproblem > div {
+        padding: 0px !important;
+    }
 }
 
 #plug {
@@ -508,4 +522,46 @@ p#liblurb {
 
 #dates {
     font-size: 0.75em;
+}
+
+#affiliates-outer {
+    text-align: center;
+}
+
+.affiliatesgrid {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.affiliatesgrid > div > img {
+    max-width: 100%;
+    max-height: 2em;
+    width: auto;
+    padding: 10px;
+}
+
+.affiliatesgrid > div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: var(--cream);
+}
+
+.affiliatesgrid > div > a {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.affiliatesgrid > div > a:hover {
+    color: grey;
+}
+
+#thatoneproblem {
+    grid-column: 1/3;
 }
