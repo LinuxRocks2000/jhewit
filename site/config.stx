@@ -1,8 +1,0 @@
-[?][@on minify]
-[=baseurl "https://avrahamsociety.org/"]
-[i conf/devWorld]
-    [=baseurl "https://swaous.asuscomm.com/dev/avrahamsociety"]
-[/]
-[i conf/dev]
-    [=baseurl "http://localhost:8080/"]
-[/]
