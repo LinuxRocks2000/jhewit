@@ -21,10 +21,11 @@ jobs:
       - name: Build website
         run: |
              cd jhewit
-             ../sitix-rewrite/bin/sitix-ubuntu site -o gh-pages -y
-             mv gh-pages ..
+             #../sitix-rewrite/bin/sitix-ubuntu site -o gh-pages -y
+             #mv gh-pages ..
              rm -rf site
-             mv ../gh-pages/* .
+             #mv ../gh-pages/* .
+             mv output/* .
              git config --global user.name Robot
              git config --global user.email notan@emailaddr.ess
              git add .
