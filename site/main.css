@@ -7,7 +7,7 @@
     padding: 0px;
     margin: 0px;
     font-family: "Anton";
-    --newpurple: #ca2862;
+    --newpurple: #5c3d92;
     --newgold: #e1c305;
     --newblue: #43baef;
     --deepcream: rgb(247, 233, 213);
@@ -18,7 +18,7 @@
     --seadark: #6090a4;
     --sealight: #71a3b8;
     --scrollight: #8e3b37;
-    --humanbody: var(--kuwaitred) /*#434343*/;
+    --humanbody: #434343;
     --handledark: #7a6034;
     --scrollpaperlight: var(--newpurple)/*#d5c6ad*/;
 }
