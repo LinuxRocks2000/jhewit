@@ -1,0 +1,20 @@
+name: avraham dev build
+run-name: building dev.clarkeis.com/avrahamsociety/
+on: [push]
+
+jobs:
+  Build-Docker-Image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull repo
+        uses: actions/checkout@v4
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          registry: swaous.asuscomm.com
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Build
+        run: |
+          docker build -t swaous.asuscomm.com/avrahamsociety.org:latest .
+          docker push swaous.asuscomm.com/avrahamsociety.org:latest
