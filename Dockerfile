@@ -16,9 +16,9 @@ RUN /sitix site -y -c ${SITIX_ENVIRONMENT}
 FROM busybox:1.35
 
 # Copy the static website
-COPY --from=build /output /output
+COPY --from=build /output /avrahamsociety
 
-WORKDIR output
+WORKDIR /
 
 # Run BusyBox httpd
 CMD ["busybox", "httpd", "-f", "-v", "-p", "80"]
