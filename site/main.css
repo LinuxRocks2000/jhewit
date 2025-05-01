@@ -7,7 +7,7 @@
     padding: 0px;
     margin: 0px;
     font-family: "Anton";
-    --newpurple: #5c3d92;
+    --newpurple: #211633;
     --newgold: #e1c305;
     --newblue: #43baef;
     --deepcream: rgb(247, 233, 213);
@@ -18,7 +18,7 @@
     --seadark: #6090a4;
     --sealight: #71a3b8;
     --scrollight: #8e3b37;
-    --humanbody: #434343;
+    --humanbody: #1d1d1d;
     --handledark: #7a6034;
     --scrollpaperlight: var(--newpurple)/*#d5c6ad*/;
 }
@@ -76,6 +76,7 @@ img {
     padding-right: 25vw;
     line-height: 2em;
     font-family: "Anton";
+    color: white;
 }
 
 #main > div.space {
@@ -115,7 +116,7 @@ img {
 #shape {
     height: calc(10vh + 3px);
     width: 100vw;
-    background-color: var(--kuwaitred); /* kuwaitred */
+    background-color: var(--newgold); /* kuwaitred */
     clip-path: polygon(0% calc(100% - 3px), 0% 100%, 100% 100%, 100% calc(100% - 3px), 50% 0%);
     position: absolute;
     bottom: -1px;
@@ -137,8 +138,8 @@ img {
     font-size: 4em;
     font-family: Lobster;
     text-align: center;
-    background-color: var(--kuwaitred);
-    color: black;
+    background-color: var(--newgold); /* kuwaitred */
+    color: white;
     padding-top: 62px; /* todo: make this less terrible */
     position: sticky;
     top: 0px;
@@ -189,7 +190,7 @@ div#banner {
     color: white;
     /*--colorslant-point: clamp(20px, 10vw, 200px);
     background-image: linear-gradient(90deg, var(--kuwaitred) 0px, var(--kuwaitred) var(--colorslant-point), white var(--colorslant-point), white calc(100% - var(--colorslant-point)), var(--kuwaitred) calc(100% - var(--colorslant-point)));*/
-    border-bottom: 4px solid var(--scrollight); /* scrollight */
+    border-bottom: 4px solid var(--newgold); /* scrollight */
     border-top: none;
     /*box-shadow: 0px 0px 5px var(--kuwaitred);*/
     /*box-shadow: 0px 0px 5px black;*/
@@ -522,6 +523,10 @@ p#liblurb {
 
 .social > a:hover {
     color: var(--kuwaitred);
+}
+
+#main h1, #main h2 {
+    color: white;
 }
 
 #dates {
