@@ -1,8 +1,0 @@
-[?][@on minify]
-[=baseurl "https://avrahamsociety.org"]
-[i production]
-    [=baseurl "https://dev.clarkeis.com/avrahamsociety"]
-[/]
-[i conf/dev]
-    [=baseurl "http://localhost:8080"]
-[/]
